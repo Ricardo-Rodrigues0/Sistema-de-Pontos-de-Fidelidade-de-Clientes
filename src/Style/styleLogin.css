@@ -1,0 +1,39 @@
+.form-img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.main {
+    padding: 12rem;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #c5c5c5bd;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+
+    .hide-img img{
+        display: none;
+    }
+
+    .main {
+        padding: 2rem;
+    }
+
+    .fooster {
+        display: none;
+    }
+}
