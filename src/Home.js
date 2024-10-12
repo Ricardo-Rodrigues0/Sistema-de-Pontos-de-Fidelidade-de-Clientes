@@ -35,38 +35,30 @@ function Home() {
 
             <h1 className="mt-5">Bem-vindo à Sorveteria!</h1>
             <p className="lead">Escolha a sua sobremesa e comece a acumular pontos!</p>
-            <div className="row mt-5">
-                <div className="col-md-4">
-                    <div className="card">
-                        <img src="/img/img1.png" className="card-img-top" alt="Sorvete 1" />
-                        <div className="card-body">
-                            <h5 className="card-title">Sorvete de Chocolate</h5>
-                            <p className="card-text">Delicioso sorvete de chocolate feito com ingredientes frescos.</p>
-                            <button className="btn btn-success">Resgatar</button>
-                        </div>
+
+            <div id="carouselExampleRide" className="carousel slide" data-bs-ride="true">
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
+                        <img src="..." className="d-block w-100" alt="..."/>
+                    </div>
+                    <div className="carousel-item">
+                        <img src="..." className="d-block w-100" alt="..."/>
+                    </div>
+                    <div className="carousel-item">
+                        <img src="..." className="d-block w-100" alt="..."/>
                     </div>
                 </div>
-                <div className="col-md-4">
-                    <div className="card">
-                        <img src="/img/img1.png" className="card-img-top" alt="Sorvete 2" />
-                        <div className="card-body">
-                            <h5 className="card-title">Sorvete de Morango</h5>
-                            <p className="card-text">Sorvete de morango cremoso, perfeito para o verão!</p>
-                            <button className="btn btn-success">Resgatar</button>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-md-4">
-                    <div className="card">
-                        <img src="/img/img1.png" className="card-img-top" alt="Sorvete 3" />
-                        <div className="card-body">
-                            <h5 className="card-title">Sorvete de Baunilha</h5>
-                            <p className="card-text">O clássico sorvete de baunilha, sempre uma ótima escolha.</p>
-                            <button className="btn btn-success">Resgatar</button>
-                        </div>
-                    </div>
-                </div>
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
+                </button>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
+                </button>
             </div>
+
+
         </div>
     );
 }

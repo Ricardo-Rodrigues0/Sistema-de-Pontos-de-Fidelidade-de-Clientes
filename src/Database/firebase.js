@@ -11,7 +11,7 @@ const firebaseConfig = {
   authDomain: "cliente-fidelidade-5b0c6.firebaseapp.com",
   projectId: "cliente-fidelidade-5b0c6",
   storageBucket: "cliente-fidelidade-5b0c6.appspot.com",
-  messagingSenderId: "81403461916a",
+  messagingSenderId: "81403461916",
   appId: "1:81403461916:web:c76fe1705b0e1f90d57ad9",
   measurementId: "G-7EFV0RFBNM"
 };
