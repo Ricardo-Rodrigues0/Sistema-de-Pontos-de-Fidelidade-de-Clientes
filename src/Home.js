@@ -40,7 +40,7 @@ function Home() {
                 <div id="carouselExampleRide" className="carousel slide" data-bs-ride="true">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src="/img/groupCar/prime/HAVA.png" className="d-block mx-auto w-50" alt="Haval H6" />
+                            <img src="/img/groupCar/prime/AUD3.png" className="d-block mx-auto w-50" alt="Haval H6" />
 
                             <div className="text-center p-3 mb-5 d-none d-md-block bg-dark bg-opacity-50 p-3 rounded mt-5 mt-5">
                                 <h4 className="text-white">Haval H6</h4>
