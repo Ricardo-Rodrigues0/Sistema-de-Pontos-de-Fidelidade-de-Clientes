@@ -58,6 +58,30 @@ nav {
 }
 
 .carousel {
-    width: 50%;               /* Define a largura do carrossel */
-    height: 41vh;             /* Define a altura do carrossel */
+    width: 50%;
+    height: 41vh;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none !important; /* Remove completamente a imagem SVG padrão */
+
+}
+
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+    content: '\276E';
+    font-size: 2rem;
+    color: #157347;
+    border: 2px solid #26bd47;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    line-height: 2.5rem;
+    border-radius: 50%;
+}
+
+.carousel-control-next-icon::after {
+    content: '\276F';
+}
+

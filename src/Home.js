@@ -58,18 +58,18 @@ function Home() {
                         <div className="carousel-item active">
                             <img src="/img/groupCar/prime/HAVA.png" className="d-block mx-auto w-10" alt="Haval H6" />
 
-                            <div className="text-center p-3 mb-5 d-none d-md-block bg-dark bg-opacity-50 p-3 rounded mt-5 mt-5">
-                                <h4 className="text-white">Haval H6</h4>
-                                <p className="text-white">Potência e inovação em cada detalhe.</p>
+                            <div className="text-center p-3 mb-5 d-none d-md-block p-3 rounded mt-5 mt-5">
+                                <h4 className="text-dark">Haval H6</h4>
+                                <p className="text-dark">Potência e inovação em cada detalhe.</p>
                             </div>
                         </div>
 
                         <div className="carousel-item">
                             <img src="/img/groupCar/prime/CMDR.png" className="d-block mx-auto w-10" alt="Jeep Commander" />
 
-                            <div className="text-center p-3 mb-5 d-none d-md-block bg-dark bg-opacity-50 p-3 rounded mt-5 mt-5">
-                                <h4 className="text-white">Jeep Commander</h4>
-                                <p className="text-white">Aventura e luxo em perfeita harmonia.</p>
+                            <div className="text-center p-3 mb-5 d-none d-md-block p-3 rounded mt-5 mt-5">
+                                <h4 className="text-dark">Jeep Commander</h4>
+                                <p className="text-dark">Aventura e luxo em perfeita harmonia.</p>
                             </div>
                         </div>
 
@@ -77,9 +77,9 @@ function Home() {
                         <div className="carousel-item">
                             <img src="/img/groupCar/prime/COLB.png" className="d-block mx-auto w-10" alt="Toyota Corolla" />
 
-                            <div className="text-center p-3 mb-5 d-none d-md-block bg-dark bg-opacity-50 p-3 rounded mt-5 mt-5">
-                                <h4 className="text-white">Toyota Corolla</h4>
-                                <p className="text-white">Sofisticação e eficiência para o dia a dia.</p>
+                            <div className="text-center p-3 mb-5 d-none d-md-block p-3 rounded mt-5 mt-5">
+                                <h4 className="text-dark">Toyota Corolla</h4>
+                                <p className="text-dark">Sofisticação e eficiência para o dia a dia.</p>
                             </div>
 
                         </div>
@@ -88,9 +88,9 @@ function Home() {
                         <div className="carousel-item">
                             <img src="/img/groupCar/prime/EQBL.png" className="d-block mx-auto w-10" alt="Chevrolet Equinox" />
 
-                            <div className="text-center p-3 mb-5 d-none d-md-block bg-dark bg-opacity-50 p-3 rounded mt-5 mt-5">
-                                <h4 className="text-white">Chevrolet Equinox</h4>
-                                <p className="text-white">Potência e conforto para viagens inesquecíveis.</p>
+                            <div className="text-center p-3 mb-5 d-none d-md-block p-3 rounded mt-5 mt-5">
+                                <h4 className="text-dark">Chevrolet Equinox</h4>
+                                <p className="text-dark">Potência e conforto para viagens inesquecíveis.</p>
                             </div>
                         </div>
 
