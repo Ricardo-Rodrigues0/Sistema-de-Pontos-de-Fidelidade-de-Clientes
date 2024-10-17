@@ -34,7 +34,7 @@ function Home() {
                                 </a>
                             </li>
                         </ul>
-                        <div>
+                        <div className="btn-group" role="group" aria-label="Basic outlined example">
                             <Link to="/login" className="btn btn-primary mr-2">
                                 Login
                             </Link>
@@ -143,7 +143,7 @@ function Home() {
 
             <section className='section2'>
 
-                
+
             </section>
 
 
