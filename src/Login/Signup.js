@@ -104,7 +104,7 @@ function Signup() {
             </div>
             <div className="fooster d-flex flex-column flex-md-row align-items-center justify-content-between py-4 px-4 px-xl-5 bg-success">
                 <div className="logo">
-                    <img src='/img/localiza-logo.png' alt='Logo Localiza' />
+                    <img src='/img/localiza-logo.svg' alt='Logo Localiza' />
                 </div>
                 <div className="text-center text-md-center text-white flex-grow-1">
                     Copyright © 2024. "Esta página é uma aplicação inspirada na Localiza, criada apenas para fins de estudo e aprendizado."
