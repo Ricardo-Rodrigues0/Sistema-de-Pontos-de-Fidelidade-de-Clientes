@@ -49,61 +49,71 @@ function Home() {
 
             <section className='section1'>
                 <img className='banner' src='/img/banner.png'></img>
-                <h1 className="mt-5 text-center">Conheça nossos carros da categoria Prime</h1>
+                <h1 className="mt-5 text-center">Conheça nossas categorias do Programa Fidelidade</h1>
                 <p className="lead text-center mb-5">Escolha o seu modelo favorito e acumule pontos!</p>
 
                 <div class="carousel-container">
-                <div id="carouselExampleRide" className="carousel slide" data-bs-ride="true">
-                    <div className="carousel-inner">
-                        <div className="carousel-item active">
-                            <img src="/img/groupCar/prime/HAVA.png" className="d-block mx-auto w-10" alt="Haval H6" />
+                    <div id="carouselExampleRide" className="carousel slide" data-bs-ride="true">
+                        <div className="carousel-inner">
+                            <div className="carousel-item active">
+                                <img src="/img/groupCar/hatch/ARGO.png" className="d-block mx-auto w-10" alt="Haval H6" />
 
-                            <div className="text-center p-3 mb-5 d-none d-md-block p-3 rounded mt-5 mt-5">
-                                <h4 className="text-dark">Haval H6</h4>
-                                <p className="text-dark">Potência e inovação em cada detalhe.</p>
-                            </div>
-                        </div>
-
-                        <div className="carousel-item">
-                            <img src="/img/groupCar/prime/CMDR.png" className="d-block mx-auto w-10" alt="Jeep Commander" />
-
-                            <div className="text-center p-3 mb-5 d-none d-md-block p-3 rounded mt-5 mt-5">
-                                <h4 className="text-dark">Jeep Commander</h4>
-                                <p className="text-dark">Aventura e luxo em perfeita harmonia.</p>
-                            </div>
-                        </div>
-
-
-                        <div className="carousel-item">
-                            <img src="/img/groupCar/prime/COLB.png" className="d-block mx-auto w-10" alt="Toyota Corolla" />
-
-                            <div className="text-center p-3 mb-5 d-none d-md-block p-3 rounded mt-5 mt-5">
-                                <h4 className="text-dark">Toyota Corolla</h4>
-                                <p className="text-dark">Sofisticação e eficiência para o dia a dia.</p>
+                                <div className="text-center d-none d-md-block rounded mt-5">
+                                    <h4 className="text-dark">Grupo Hatch - Fiat Argo</h4>
+                                    <p className="text-dark">Considere também: Gol, Hyundai HB20, Renault Kwid, Onix e Polo. <br></br> Descubra qual é o ideal para você!</p>
+                                </div>
                             </div>
 
-                        </div>
+                            <div className="carousel-item">
+                                <img src="/img/groupCar/pick-up/S10X.png" className="d-block mx-auto w-10" alt="Jeep Commander" />
 
-
-                        <div className="carousel-item">
-                            <img src="/img/groupCar/prime/EQBL.png" className="d-block mx-auto w-10" alt="Chevrolet Equinox" />
-
-                            <div className="text-center p-3 mb-5 d-none d-md-block p-3 rounded mt-5 mt-5">
-                                <h4 className="text-dark">Chevrolet Equinox</h4>
-                                <p className="text-dark">Potência e conforto para viagens inesquecíveis.</p>
+                                <div className="text-center d-none d-md-block rounded mt-5">
+                                    <h4 className="text-dark">Grupo Picape - Chevrolet S10</h4>
+                                    <p className="text-dark">Considere também: Nissan Frontier, Mitsubishi L200, Montana, Fiat Toro e Toyota Hilux. <br></br> Descubra qual é o ideal para você!</p>
+                                </div>
                             </div>
-                        </div>
 
+
+                            <div className="carousel-item">
+                                <img src="/img/groupCar/prime/HAVA.png" className="d-block mx-auto w-10" alt="Toyota Corolla" />
+
+                                <div className="text-center d-none d-md-block rounded mt-5">
+                                    <h4 className="text-dark">Grupo Prime - Haval H6</h4>
+                                    <p className="text-dark">Considere também: Audi A3, Jeep Commander, Toyota Corolla, Equinox e Song Plus. <br></br> Descubra qual é o ideal para você!</p>
+                                </div>
+
+                            </div>
+
+
+                            <div className="carousel-item">
+                                <img src="/img/groupCar/sedan/SETA.png" className="d-block mx-auto w-10" alt="Chevrolet Equinox" />
+
+                                <div className="text-center d-none d-md-block rounded mt-5">
+                                    <h4 className="text-dark">Grupo Sedan - Nissan Sentra</h4>
+                                    <p className="text-dark">Considere também: Fiat Cronos, Hyundai HB20, Onix, Virtus. <br></br> Descubra qual é o ideal para você!</p>
+                                </div>
+                            </div>
+
+
+                            <div className="carousel-item">
+                                <img src="/img/groupCar/suv/CRTA.png" className="d-block mx-auto w-10" alt="Chevrolet Equinox" />
+
+                                <div className="text-center d-none d-md-block rounded mt-5">
+                                    <h4 className="text-dark">Grupo Suv - Chevrolet Creta</h4>
+                                    <p className="text-dark">Considere também: Hyundai Creta, Fiat Fastback, Nissan Kicks, Nivus Highline, Fiat Pulse e Chevrolet Tracker. <br></br> Descubra qual é o ideal para você!</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Previous</span>
+                        </button>
+                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Previous</span>
-                    </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
-                    </button>
-                </div>
                 </div>
 
             </section>
