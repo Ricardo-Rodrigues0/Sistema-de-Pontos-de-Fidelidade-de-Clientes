@@ -49,36 +49,37 @@ function Home() {
 
             <section className='section1'>
                 <img className='banner' src='/img/banner.png'></img>
-                <h1 className="mt-5 text-center">Conheça nossas categorias do Programa Fidelidade</h1>
-                <p className="lead text-center mb-5">Escolha o seu modelo favorito e acumule pontos!</p>
+                <h1 className="mt-5 text-center">Conheça as Diversas Categorias do Programa Fidelidade</h1>
+                <p className="lead text-center mb-5">Escolha o modelo que mais combina com você e acumule pontos!</p>
+
 
                 <div class="carousel-container">
                     <div id="carouselExampleRide" className="carousel slide" data-bs-ride="true">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img src="/img/groupCar/hatch/ARGO.png" className="d-block mx-auto w-10" alt="Haval H6" />
+                                <img src="/img/groupCar/hatch/ARGO.png" className="d-block mx-auto w-10" alt="Fiat Argo" />
 
                                 <div className="text-center d-none d-md-block rounded mt-5">
-                                    <h4 className="text-dark">Grupo Hatch - Fiat Argo</h4>
+                                    <h4 className="text-dark">Categoria Hatch - Fiat Argo</h4>
                                     <p className="text-dark">Considere também: Gol, Hyundai HB20, Renault Kwid, Onix e Polo. <br></br> Descubra qual é o ideal para você!</p>
                                 </div>
                             </div>
 
                             <div className="carousel-item">
-                                <img src="/img/groupCar/pick-up/S10X.png" className="d-block mx-auto w-10" alt="Jeep Commander" />
+                                <img src="/img/groupCar/pick-up/S10X.png" className="d-block mx-auto w-10" alt="Chevrolet S10" />
 
                                 <div className="text-center d-none d-md-block rounded mt-5">
-                                    <h4 className="text-dark">Grupo Picape - Chevrolet S10</h4>
+                                    <h4 className="text-dark">Categoria Picape - Chevrolet S10</h4>
                                     <p className="text-dark">Considere também: Nissan Frontier, Mitsubishi L200, Montana, Fiat Toro e Toyota Hilux. <br></br> Descubra qual é o ideal para você!</p>
                                 </div>
                             </div>
 
 
                             <div className="carousel-item">
-                                <img src="/img/groupCar/prime/HAVA.png" className="d-block mx-auto w-10" alt="Toyota Corolla" />
+                                <img src="/img/groupCar/prime/HAVA.png" className="d-block mx-auto w-10" alt="Haval H6" />
 
                                 <div className="text-center d-none d-md-block rounded mt-5">
-                                    <h4 className="text-dark">Grupo Prime - Haval H6</h4>
+                                    <h4 className="text-dark">Categoria Prime - Haval H6</h4>
                                     <p className="text-dark">Considere também: Audi A3, Jeep Commander, Toyota Corolla, Equinox e Song Plus. <br></br> Descubra qual é o ideal para você!</p>
                                 </div>
 
@@ -86,21 +87,21 @@ function Home() {
 
 
                             <div className="carousel-item">
-                                <img src="/img/groupCar/sedan/SETA.png" className="d-block mx-auto w-10" alt="Chevrolet Equinox" />
+                                <img src="/img/groupCar/sedan/SETA.png" className="d-block mx-auto w-10" alt="Nissan Sentra" />
 
                                 <div className="text-center d-none d-md-block rounded mt-5">
-                                    <h4 className="text-dark">Grupo Sedan - Nissan Sentra</h4>
+                                    <h4 className="text-dark">Categoria Sedan - Nissan Sentra</h4>
                                     <p className="text-dark">Considere também: Fiat Cronos, Hyundai HB20, Onix, Virtus. <br></br> Descubra qual é o ideal para você!</p>
                                 </div>
                             </div>
 
 
                             <div className="carousel-item">
-                                <img src="/img/groupCar/suv/CRTA.png" className="d-block mx-auto w-10" alt="Chevrolet Equinox" />
+                                <img src="/img/groupCar/suv/CRTA.png" className="d-block mx-auto w-10" alt="Hyundai Creta" />
 
                                 <div className="text-center d-none d-md-block rounded mt-5">
-                                    <h4 className="text-dark">Grupo Suv - Chevrolet Creta</h4>
-                                    <p className="text-dark">Considere também: Hyundai Creta, Fiat Fastback, Nissan Kicks, Nivus Highline, Fiat Pulse e Chevrolet Tracker. <br></br> Descubra qual é o ideal para você!</p>
+                                    <h4 className="text-dark">Categoria Suv - Hyundai Creta</h4>
+                                    <p className="text-dark">Considere também: Fiat Fastback, Nissan Kicks, Nivus Highline, Fiat Pulse e Chevrolet Tracker. <br></br> Descubra qual é o ideal para você!</p>
                                 </div>
                             </div>
 
@@ -142,32 +143,7 @@ function Home() {
 
             <section className='section2'>
 
-                <div className="card-group">
-                    <div className="card">
-                        <img src="..." className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <img src="..." className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <img src="..." className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                </div>
+                
             </section>
 
 

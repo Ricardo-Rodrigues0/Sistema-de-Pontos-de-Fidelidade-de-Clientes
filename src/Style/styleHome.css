@@ -84,3 +84,7 @@ nav {
 .carousel-control-next-icon::after {
     content: '\276F';
 }
+
+.section2 {
+    height: 200px;
+}
