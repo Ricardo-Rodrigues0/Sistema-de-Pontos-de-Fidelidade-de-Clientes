@@ -48,9 +48,11 @@ function Home() {
 
 
             <section className='section1'>
+                <img className='banner' src='/img/banner.png'></img>
                 <h1 className="mt-5 text-center">Conheça nossos carros da categoria Prime</h1>
                 <p className="lead text-center mb-5">Escolha o seu modelo favorito e acumule pontos!</p>
 
+                <div class="carousel-container">
                 <div id="carouselExampleRide" className="carousel slide" data-bs-ride="true">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
@@ -101,6 +103,7 @@ function Home() {
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="visually-hidden">Next</span>
                     </button>
+                </div>
                 </div>
 
             </section>

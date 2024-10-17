@@ -45,3 +45,19 @@ nav {
 .nav-item .nav-link.active:hover {
     color: #26bd47;
 }
+
+.banner {
+    width: 100%;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.carousel {
+    width: 50%;               /* Define a largura do carrossel */
+    height: 41vh;             /* Define a altura do carrossel */
+}
