@@ -55,6 +55,7 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: #f8f9fa;
+    height: 50vh;
 }
 
 .carousel {
@@ -85,6 +86,3 @@ nav {
     content: '\276F';
 }
 
-.section2 {
-    height: 200px;
-}

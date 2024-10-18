@@ -48,12 +48,12 @@ function Home() {
 
 
             <section className='section1'>
-                <img className='banner' src='/img/banner.png'></img>
+                <img className='banner' src='/img/banner.png' alt='Banner'></img>
                 <h1 className="mt-5 text-center">Conheça as Diversas Categorias do Programa Fidelidade</h1>
                 <p className="lead text-center mb-5">Escolha o modelo que mais combina com você e acumule pontos!</p>
 
 
-                <div class="carousel-container">
+                <div className="carousel-container">
                     <div id="carouselExampleRide" className="carousel slide" data-bs-ride="true">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
@@ -132,17 +132,54 @@ function Home() {
 
 
 
-
-
-
-
-
-
-
-
-
             <section className='section2'>
 
+            </section>
+
+
+
+
+
+
+
+
+            <section className='section3'>
+                <h1 className="mt-5 text-center">Explore Novos Horizontes com Seu Carro Alugado!</h1>
+                <p className="lead text-center mb-5">Encontre o destino perfeito para sua próxima aventura em família e acumule ainda mais pontos.</p>
+
+                <div className="carousel-container">
+                    <div id="carouselExampleCaptions" className="carousel2 carousel slide">
+                        <div className="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div className="carousel-inner">
+                        <div className="carousel-item active">
+                                <img src="/img/viagens/gramado.png" className="d-block mx-auto w-10" alt="Chevrolet S10" />
+
+                                <div className="text-center d-none d-md-block rounded mt-5">
+                                    <h4 className="text-dark">Categoria Picape - Chevrolet S10</h4>
+                                    <p className="text-dark">Considere também: Nissan Frontier, Mitsubishi L200, Montana, Fiat Toro e Toyota Hilux. <br></br> Descubra qual é o ideal para você!</p>
+                                </div>
+                            </div>
+                            <div className="carousel-item">
+                                <img src="/img/viagens/gramado.png" className="d-block mx-auto w-50" alt="..." />
+                                <div className="carousel-caption d-none d-md-block">
+                                    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div className="carousel-item">
+                                <img src="/img/viagens/gramado.png" className="d-block mx-auto w-50" alt="..." />
+                                <div className="carousel-caption d-none d-md-block">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </section>
 
