@@ -54,7 +54,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f8f9fa;
+    background-color: #f0f0f0;
     height: 50vh;
 }
 
@@ -86,3 +86,26 @@ nav {
     content: '\276F';
 }
 
+.carousel-indicators button {
+    background-color: #ffffff !important; /* Cor personalizada para os indicadores */
+}
+
+.carousel-indicators .active {
+    background-color: #26bd47 !important; /* Cor personalizada para o indicador ativo */
+}
+
+.carousel-indicators button:hover {
+    background-color: #157347 !important; /* Cor ao passar o mouse */
+}
+
+.carousel-caption {
+    position: static;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-indicators {
+    margin-top: 50px;
+    justify-content: center;
+    height: -20rem;
+}

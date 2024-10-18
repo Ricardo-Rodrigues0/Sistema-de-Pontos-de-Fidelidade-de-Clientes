@@ -144,54 +144,51 @@ function Home() {
 
 
             <section className='section3'>
-                <h1 className="mt-5 text-center">Explore Novos Horizontes com Seu Carro Alugado!</h1>
-                <p className="lead text-center mb-5">Encontre o destino perfeito para sua próxima aventura em família e acumule ainda mais pontos.</p>
+    <h1 className="mt-5 text-center">Explore Novos Horizontes com Seu Carro Alugado!</h1>
+    <p className="lead text-center mb-5">Encontre o destino perfeito para sua próxima aventura em família e acumule ainda mais pontos.</p>
 
-                <div className="carousel-container">
-                    <div id="carouselExampleCaptions" className="carousel2 carousel slide">
-                        <div className="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div className="carousel-inner">
-                        <div className="carousel-item active">
-                                <img src="/img/viagens/gramado.png" className="d-block mx-auto w-10" alt="Chevrolet S10" />
+    <div className="carousel-container">
+        <div id="carouselExampleCaptions" className="carousel2 carousel slide">
+            <div className="carousel-inner">
 
-                                <div className="text-center d-none d-md-block rounded mt-5">
-                                    <h4 className="text-dark">Categoria Picape - Chevrolet S10</h4>
-                                    <p className="text-dark">Considere também: Nissan Frontier, Mitsubishi L200, Montana, Fiat Toro e Toyota Hilux. <br></br> Descubra qual é o ideal para você!</p>
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <img src="/img/viagens/gramado.png" className="d-block mx-auto w-50" alt="..." />
-                                <div className="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <img src="/img/viagens/gramado.png" className="d-block mx-auto w-50" alt="..." />
-                                <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
-                                </div>
-                            </div>
-                        </div>
+                <div className="carousel-item active">
+                    <img src="/img/viagens/gramado.png" className="d-block mx-auto w-10" alt="Gramado, Rio Grande do Sul" />
+                    <div className="carousel-caption d-md-block">
+                        <h4 className="text-dark">Gramado, Rio Grande do Sul</h4>
+                        <p className="text-dark">Gramado, com sua arquitetura europeia, gastronomia e clima serrano, é um dos destinos mais visitados do Brasil. Ideal para famílias, oferece parques, museus e o famoso evento Natal Luz. Explore a Serra Gaúcha com conforto e viva momentos inesquecíveis.</p>
                     </div>
                 </div>
 
-            </section>
-
-
-            <div className="fooster d-flex flex-column flex-md-row align-items-center justify-content-between py-4 px-4 px-xl-5 bg-success">
-                <div className="logo">
-                    <img src='/img/localiza-logo.svg' alt='Logo Localiza' />
+                <div className="carousel-item">
+                    <img src="/img/viagens/gramado.png" className="d-block mx-auto w-10" alt="Chevrolet S10" />
+                    <div className="carousel-caption d-md-block">
+                        <h4 className="text-dark">Categoria Picape - Chevrolet S10</h4>
+                        <p className="text-dark">Considere também: Nissan Frontier, Mitsubishi L200, Montana, Fiat Toro e Toyota Hilux.  Descubra qual é o ideal para você!</p>
+                    </div>
                 </div>
-                <div className="text-center text-md-center text-white flex-grow-1">
-                    Copyright © 2024. "Esta página é uma aplicação inspirada na Localiza, criada apenas para fins de estudo e aprendizado."
+
+                <div className="carousel-item">
+                    <img src="/img/viagens/gramado.png" className="d-block mx-auto w-10" alt="Chevrolet S10" />
+                    <div className="carousel-caption d-md-block">
+                        <h4 className="text-dark">Categoria Picape - Chevrolet S10</h4>
+                        <p className="text-dark">Considere também: Nissan Frontier, Mitsubishi L200, Montana, Fiat Toro e Toyota Hilux.  Descubra qual é o ideal para você!</p>
+                    </div>
                 </div>
+
             </div>
+
+            <div className="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
         </div>
     );
 }
