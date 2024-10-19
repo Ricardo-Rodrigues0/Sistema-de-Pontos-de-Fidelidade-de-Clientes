@@ -3,6 +3,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Style/styleHome.css';
 
+
+
 function Home() {
     return (
         <div className='mainHome'>
@@ -42,6 +44,7 @@ function Home() {
                                 Cadastro
                             </Link>
                         </div>
+                    
                     </div>
                 </div>
             </nav>
@@ -143,48 +146,7 @@ function Home() {
 
 
 
-            <section className='section3'>
-    <h1 className="mt-5 text-center">Explore Novos Horizontes com Seu Carro Alugado!</h1>
-    <p className="lead text-center mb-5">Encontre o destino perfeito para sua próxima aventura em família e acumule ainda mais pontos.</p>
 
-    <div className="carousel-container">
-        <div id="carouselExampleCaptions" className="carousel2 carousel slide">
-            <div className="carousel-inner">
-
-                <div className="carousel-item active">
-                    <img src="/img/viagens/gramado.png" className="d-block mx-auto w-10" alt="Gramado, Rio Grande do Sul" />
-                    <div className="carousel-caption d-md-block">
-                        <h4 className="text-dark">Gramado, Rio Grande do Sul</h4>
-                        <p className="text-dark">Gramado, com sua arquitetura europeia, gastronomia e clima serrano, é um dos destinos mais visitados do Brasil. Ideal para famílias, oferece parques, museus e o famoso evento Natal Luz. Explore a Serra Gaúcha com conforto e viva momentos inesquecíveis.</p>
-                    </div>
-                </div>
-
-                <div className="carousel-item">
-                    <img src="/img/viagens/gramado.png" className="d-block mx-auto w-10" alt="Chevrolet S10" />
-                    <div className="carousel-caption d-md-block">
-                        <h4 className="text-dark">Categoria Picape - Chevrolet S10</h4>
-                        <p className="text-dark">Considere também: Nissan Frontier, Mitsubishi L200, Montana, Fiat Toro e Toyota Hilux.  Descubra qual é o ideal para você!</p>
-                    </div>
-                </div>
-
-                <div className="carousel-item">
-                    <img src="/img/viagens/gramado.png" className="d-block mx-auto w-10" alt="Chevrolet S10" />
-                    <div className="carousel-caption d-md-block">
-                        <h4 className="text-dark">Categoria Picape - Chevrolet S10</h4>
-                        <p className="text-dark">Considere também: Nissan Frontier, Mitsubishi L200, Montana, Fiat Toro e Toyota Hilux.  Descubra qual é o ideal para você!</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div className="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 
