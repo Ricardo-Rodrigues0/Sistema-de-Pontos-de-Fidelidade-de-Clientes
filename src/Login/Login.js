@@ -55,7 +55,7 @@ function Login() {
     const handleGoogleLogin = async () => {
         try {
             await signInWithPopup(auth, googleProvider);
-            setMessage('Login com Google realizado com sucesso!');
+            setMessage('Login com Google realizado com saucesso!');
             navigate('/welcome');
         } catch (error) {
             console.error("Erro ao fazer login com Google: ", error);
