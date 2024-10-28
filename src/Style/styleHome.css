@@ -55,7 +55,7 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: #f0f0f0;
-    height: 50vh;
+    height: 65vh;
 }
 
 .carousel {
@@ -87,7 +87,7 @@ nav {
 }
 
 .carousel-indicators button {
-    background-color: #ffffff !important; /* Cor personalizada para os indicadores */
+    background-color: #157347 !important; /* Cor personalizada para os indicadores */
 }
 
 .carousel-indicators .active {
@@ -98,19 +98,11 @@ nav {
     background-color: #157347 !important; /* Cor ao passar o mouse */
 }
 
-.carousel-caption {
-    position: static;
-    text-align: center;
-    margin-top: 20px;
+.img-viagem {
+    width: 420px;
 }
 
-.carousel-indicators {
-    margin-top: 50px;
-    justify-content: center;
-    height: -20rem;
-}
-
-
-.section2 {
-    height: 200px;
+.indicators {
+    margin-top: 55px;
+    background-color: #007bff; /* Exemplo de cor personalizada */
 }
