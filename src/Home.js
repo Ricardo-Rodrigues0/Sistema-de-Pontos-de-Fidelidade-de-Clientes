@@ -136,6 +136,7 @@ function Home() {
 
 
             <section className='section2'>
+            <img className='banner' src='/img/banner2.png' alt='Banner'></img>
 
                 <div class="card mb-3">
                     <div class="row g-0">
