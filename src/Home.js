@@ -79,10 +79,10 @@ function Home() {
 
 
                             <div className="carousel-item">
-                                <img src="/img/groupCar/prime/HAVA.png" className="d-block mx-auto w-10" alt="Haval H6" />
+                                <img src="/img/groupCar/premium/HAVA.png" className="d-block mx-auto w-10" alt="Haval H6" />
 
                                 <div className="text-center d-none d-md-block rounded mt-5">
-                                    <h4 className="text-dark">Categoria Prime - Haval H6</h4>
+                                    <h4 className="text-dark">Categoria Premium - Haval H6</h4>
                                     <p className="text-dark">Considere também: Audi A3, Jeep Commander, Toyota Corolla, Equinox e Song Plus. <br></br> Descubra qual é o ideal para você!</p>
                                 </div>
 
@@ -140,60 +140,216 @@ function Home() {
 
 
 
-                <div class="card mb-3">
-                    <div class="row g-0">
-                        <div class="col-md-5">
-                            <div class="card-body">
-                                <div id="carouselExampleIndicators" class="carousel slide">
-                                    <div class="carousel-indicators">
-                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                    </div>
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="/img/groupCar/pick-up/S10X.png" class="d-block w-100" alt="..." />
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="/img/groupCar/pick-up/S10X.png" class="d-block w-100" alt="..." />
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="/img/groupCar/pick-up/S10X.png" class="d-block w-100" alt="..." />
-                                        </div>
-                                    </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
+
+
+                <div class="container mt-5">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-3 mb-3 mx-2">
+                            <div class="card">
+                                <div class="card-header text-center">
+                                    Categoria Hatch
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Hyundai HB20</h5>
+                                    <img src="/img/groupCar/hatch/HB2X.png" class="img-fluid" alt="Hyundai HB20" />
+                                    <p class="card-text mt-3">Compacto e prático, o hatch é perfeito para o dia a dia, combinando agilidade e economia.</p>
+                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                        Ver carros disponíveis
                                     </button>
                                 </div>
                             </div>
+
                         </div>
+
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...1
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="col-sm-3 mb-3 mx-2">
+                            <div class="card">
+                                <div class="card-header text-center">
+                                    Categoria Picape
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Nissan Frontier</h5>
+                                    <img src="/img/groupCar/pick-up/FRON.png" class="img-fluid" alt="Nissan Frontier" />
+                                    <p class="card-text mt-3">Força e versatilidade para encarar qualquer desafio, seja na cidade ou no campo.</p>
+                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                        Ver carros disponíveis
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...2
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="col-sm-3 mb-3 mx-2">
+                            <div class="card">
+                                <div class="card-header text-center">
+                                    Categoria Sedan
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Fiat Cronos</h5>
+                                    <img src="/img/groupCar/sedan/CROM.png" class="img-fluid" alt="Fiat Cronos" />
+                                    <p class="card-text mt-3">Com mais espaço e conforto, o sedan oferece elegância e desempenho para todas as suas viagens.</p>
+                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                        Ver carros disponíveis
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...3
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="col-sm-3 mb-3 mx-2">
+                            <div class="card">
+                                <div class="card-header text-center">
+                                    Categoria Prime
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Hyundai HB20</h5>
+                                    <img src="/img/groupCar/hatch/hb2x.png" class="img-fluid" alt="Fiat Argo" />
+                                    <p class="card-text mt-3">Compacto e prático, o hatch é perfeito para o dia a dia, combinando agilidade e economia.</p>
+                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                        Ver carros disponíveis
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...1
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="col-sm-3 mb-3 mx-2">
+                            <div class="card">
+                                <div class="card-header text-center">
+                                    Categoria Hatch
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Hyundai HB20</h5>
+                                    <img src="/img/groupCar/hatch/hb2x.png" class="img-fluid" alt="Fiat Argo" />
+                                    <p class="card-text mt-3">Compacto e prático, o hatch é perfeito para o dia a dia, combinando agilidade e economia.</p>
+                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                        Ver carros disponíveis
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...1
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
                     </div>
                 </div>
+
 
             </section>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
+
     );
 }
 
