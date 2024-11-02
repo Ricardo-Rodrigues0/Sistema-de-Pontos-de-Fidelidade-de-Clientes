@@ -151,10 +151,11 @@ function Home() {
                                 </div>
                                 <div class="card-body text-center">
                                     <h5 class="card-title">Hyundai HB20</h5>
-                                    <img src="/img/groupCar/hatch/HB2X.png" class="img-fluid" alt="Hyundai HB20" />
+                                    <img src="/img/groupCar/hatch/HB2X.png" class="img-fluid" style={{ height: '150px', objectFit: 'contain' }}
+                                        alt="Hyundai HB20" />
                                     <p class="card-text mt-3">Compacto e prático, o hatch é perfeito para o dia a dia, combinando agilidade e economia.</p>
                                     <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                                        Ver carros disponíveis
+                                        Confira outros modelos
                                     </button>
                                 </div>
                             </div>
@@ -162,14 +163,49 @@ function Home() {
                         </div>
 
                         <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
+                            <div class="modal-dialog modal-lg" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        ...1
+                                        <div className="carousel-modal">
+                                            <div id="carouselExample" class="carousel slide">
+
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img
+                                                            src="/img/groupCar/hatch/HB2X.png" className="img-fluid d-block mx-auto" style={{ height: '200px', objectFit: 'contain' }} alt="..." />
+
+                                                        <div className="text-center d-none d-md-block rounded mt-5">
+                                                            <h4 className="text-dark">Categoria Sedan - Nissan Sentra</h4>
+                                                            <p className="text-dark">Considere também: Fiat Cronos, Hyundai HB20, Onix, Virtus. <br></br> Descubra qual é o ideal para você!</p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img
+                                                            src="/img/groupCar/hatch/HB2X.png" className="img-fluid d-block mx-auto" style={{ height: '200px', objectFit: 'contain' }} alt="..." />
+
+                                                        <div className="text-center d-none d-md-block rounded mt-5">
+                                                            <h4 className="text-dark">Categoria Sedan - Nissan Sentra</h4>
+                                                            <p className="text-dark">Considere também: Fiat Cronos, Hyundai HB20, Onix, Virtus. <br></br> Descubra qual é o ideal para você!</p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -189,10 +225,11 @@ function Home() {
                                 </div>
                                 <div class="card-body text-center">
                                     <h5 class="card-title">Nissan Frontier</h5>
-                                    <img src="/img/groupCar/pick-up/FRON.png" class="img-fluid" alt="Nissan Frontier" />
+                                    <img src="/img/groupCar/pick-up/FRON.png" class="img-fluid" style={{ height: '150px', objectFit: 'contain' }}
+                                        alt="Nissan Frontier" />
                                     <p class="card-text mt-3">Força e versatilidade para encarar qualquer desafio, seja na cidade ou no campo.</p>
                                     <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                                        Ver carros disponíveis
+                                        Confira outros modelos
                                     </button>
                                 </div>
                             </div>
@@ -200,7 +237,7 @@ function Home() {
                         </div>
 
                         <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
+                            <div class="modal-dialog modal-dialog-centered">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
@@ -229,10 +266,11 @@ function Home() {
                                 </div>
                                 <div class="card-body text-center">
                                     <h5 class="card-title">Fiat Cronos</h5>
-                                    <img src="/img/groupCar/sedan/CROM.png" class="img-fluid" alt="Fiat Cronos" />
+                                    <img src="/img/groupCar/sedan/CROM.png" class="img-fluid" style={{ height: '150px', objectFit: 'contain' }}
+                                        alt="Fiat Cronos" />
                                     <p class="card-text mt-3">Com mais espaço e conforto, o sedan oferece elegância e desempenho para todas as suas viagens.</p>
                                     <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                                        Ver carros disponíveis
+                                        Confira outros modelos
                                     </button>
                                 </div>
                             </div>
@@ -264,21 +302,22 @@ function Home() {
                         <div class="col-sm-3 mb-3 mx-2">
                             <div class="card">
                                 <div class="card-header text-center">
-                                    Categoria Prime
+                                    Categoria Premium
                                 </div>
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">Hyundai HB20</h5>
-                                    <img src="/img/groupCar/hatch/hb2x.png" class="img-fluid" alt="Fiat Argo" />
-                                    <p class="card-text mt-3">Compacto e prático, o hatch é perfeito para o dia a dia, combinando agilidade e economia.</p>
-                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                                        Ver carros disponíveis
+                                    <h5 class="card-title">Audi A3</h5>
+                                    <img src="/img/groupCar/premium/AUD3.png" class="img-fluid" style={{ height: '150px', objectFit: 'contain' }}
+                                        alt="Audi A3" />
+                                    <p class="card-text mt-3">Luxo e sofisticação em cada detalhe, ideal para quem busca exclusividade e conforto premium.</p>
+                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                        Confira outros modelos
                                     </button>
                                 </div>
                             </div>
 
                         </div>
 
-                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -286,7 +325,7 @@ function Home() {
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        ...1
+                                        ...4
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -304,21 +343,22 @@ function Home() {
                         <div class="col-sm-3 mb-3 mx-2">
                             <div class="card">
                                 <div class="card-header text-center">
-                                    Categoria Hatch
+                                    Categoria SUV
                                 </div>
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">Hyundai HB20</h5>
-                                    <img src="/img/groupCar/hatch/hb2x.png" class="img-fluid" alt="Fiat Argo" />
-                                    <p class="card-text mt-3">Compacto e prático, o hatch é perfeito para o dia a dia, combinando agilidade e economia.</p>
-                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                                        Ver carros disponíveis
+                                    <h5 class="card-title">Fiat Fastback</h5>
+                                    <img src="/img/groupCar/suv/FATB.png" class="img-fluid" style={{ height: '150px', objectFit: 'contain' }}
+                                        alt="Fiat Fastback" />
+                                    <p class="card-text mt-3">Robusto e espaçoso, o SUV é ideal para aventuras e momentos em família com segurança e estilo.</p>
+                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                        Confira outros modelos
                                     </button>
                                 </div>
                             </div>
 
                         </div>
 
-                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -326,7 +366,7 @@ function Home() {
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        ...1
+                                        ...5
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

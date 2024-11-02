@@ -85,3 +85,10 @@ nav {
 .carousel-control-next-icon::after {
     content: '\276F';
 }
+
+
+.carousel-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
