@@ -44,21 +44,18 @@ function Home() {
                                 Cadastro
                             </Link>
                         </div>
-
                     </div>
                 </div>
             </nav>
-
 
             <section className='section1'>
                 <img className='banner' src='/img/banner.png' alt='Banner'></img>
                 <h1 className="mt-5 text-center">Conheça as Diversas Categorias do Programa Fidelidade</h1>
                 <p className="lead text-center mb-5">Escolha o modelo que mais combina com você e acumule pontos!</p>
-
-
                 <div className="carousel-container">
                     <div id="carouselExampleRide" className="carousel slide" data-bs-ride="true">
                         <div className="carousel-inner">
+
                             <div className="carousel-item active">
                                 <img src="/img/groupCar/hatch/ARGO.png" className="d-block mx-auto w-10" alt="Fiat Argo" />
 
@@ -77,7 +74,6 @@ function Home() {
                                 </div>
                             </div>
 
-
                             <div className="carousel-item">
                                 <img src="/img/groupCar/premium/HAVA.png" className="d-block mx-auto w-10" alt="Haval H6" />
 
@@ -88,7 +84,6 @@ function Home() {
 
                             </div>
 
-
                             <div className="carousel-item">
                                 <img src="/img/groupCar/sedan/SETA.png" className="d-block mx-auto w-10" alt="Nissan Sentra" />
 
@@ -97,7 +92,6 @@ function Home() {
                                     <p className="text-dark">Considere também: Fiat Cronos, Hyundai HB20, Onix, Virtus. <br></br> Descubra qual é o ideal para você!</p>
                                 </div>
                             </div>
-
 
                             <div className="carousel-item">
                                 <img src="/img/groupCar/suv/CRTA.png" className="d-block mx-auto w-10" alt="Hyundai Creta" />
@@ -119,31 +113,15 @@ function Home() {
                         </button>
                     </div>
                 </div>
-
             </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             <section className='section2'>
                 <img className='banner' src='/img/banner2.png' alt='Banner'></img>
-
-
-
-
-
+                <h1 className="mt-5 text-center">Explore Nossa Variedade de Modelos de Carros</h1>
+                <p className="lead text-center mb-5">Encontre o modelo que atende suas necessidades e comece a acumular pontos!</p>
                 <div className="container mt-5">
                     <div className="row justify-content-center">
+
                         <div className="col-sm-3 mb-3 mx-2">
                             <div className="card">
                                 <div className="card-header text-center">
@@ -161,7 +139,6 @@ function Home() {
                             </div>
 
                         </div>
-
                         <div className="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
                                 <div className="modal-content">
@@ -490,10 +467,6 @@ function Home() {
                             </div>
                         </div>
 
-
-
-
-
                         <div className="col-sm-3 mb-3 mx-2">
                             <div className="card">
                                 <div className="card-header text-center">
@@ -511,7 +484,6 @@ function Home() {
                             </div>
 
                         </div>
-
                         <div className="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
                                 <div className="modal-content">
@@ -840,11 +812,6 @@ function Home() {
                             </div>
                         </div>
 
-
-
-
-
-
                         <div className="col-sm-3 mb-3 mx-2">
                             <div className="card">
                                 <div className="card-header text-center">
@@ -862,7 +829,6 @@ function Home() {
                             </div>
 
                         </div>
-
                         <div className="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
                                 <div className="modal-content">
@@ -1141,10 +1107,6 @@ function Home() {
                             </div>
                         </div>
 
-
-
-
-
                         <div className="col-sm-3 mb-3 mx-2">
                             <div className="card">
                                 <div className="card-header text-center">
@@ -1162,7 +1124,6 @@ function Home() {
                             </div>
 
                         </div>
-
                         <div className="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
                                 <div className="modal-content">
@@ -1318,7 +1279,7 @@ function Home() {
                                                                 <div className="col">
                                                                     <div className="p-3 border rounded d-flex align-items-center justify-content-start">
                                                                         <span className="me-2">📊</span>
-                                                                        <span>Tecnologia híbrida disponível</span>
+                                                                        <span>Tecnologia híbrida</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1368,7 +1329,7 @@ function Home() {
                                                                 <div className="col">
                                                                     <div className="p-3 border rounded d-flex align-items-center justify-content-start">
                                                                         <span className="me-2">🧳</span>
-                                                                        <span>1 malas pequenas</span>
+                                                                        <span>5 malas pequenas</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1491,11 +1452,6 @@ function Home() {
                             </div>
                         </div>
 
-
-
-
-
-
                         <div className="col-sm-3 mb-3 mx-2">
                             <div className="card">
                                 <div className="card-header text-center">
@@ -1513,7 +1469,6 @@ function Home() {
                             </div>
 
                         </div>
-
                         <div className="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
                                 <div className="modal-content">
@@ -1527,11 +1482,111 @@ function Home() {
                                                 <div className="carousel-inner">
 
                                                     <div className="carousel-item active">
-                                                        <h4 className="text-dark text-center">Fiat Argo</h4>
-                                                        <img src="/img/groupCar/hatch/ARGO.png" className="img-fluid d-block mx-auto" style={{ height: '200px', objectFit: 'contain' }} alt="..." />
+                                                        <h4 className="text-dark text-center">Hyundai Creta</h4>
+                                                        <img src="/img/groupCar/suv/CRTA.png" className="img-fluid d-block mx-auto" style={{ height: '200px', objectFit: 'contain' }} alt="..." />
 
                                                         <div className="text-center d-none d-md-block rounded mt-5">
-                                                            <p className="text-dark">O Fiat Argo oferece uma experiência de condução divertida e ágil, perfeito para quem busca praticidade e conforto durante suas viagens.</p><br></br>
+                                                            <p className="text-dark">O Hyundai Creta é perfeito para quem busca um SUV elegante e confortável, oferecendo tecnologia e praticidade para viagens urbanas e aventuras ao ar livre.</p><br></br>
+                                                        </div>
+
+                                                        <div className="container">
+                                                            <div className="row row-cols-2 g-1">
+                                                                <div className="col">
+                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
+                                                                        <span className="me-2">🚪</span>
+                                                                        <span>4 portas</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="col">
+                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
+                                                                        <span className="me-2">❄</span>
+                                                                        <span>Ar-condicionado</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="col">
+                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
+                                                                        <span className="me-2">🔌</span>
+                                                                        <span>Vidro elétrico</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="col">
+                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
+                                                                        <span className="me-2">🔒</span>
+                                                                        <span>Trava elétrica</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="col">
+                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
+                                                                        <span className="me-2">🛡</span>
+                                                                        <span>Air bag duplo</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="col">
+                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
+                                                                        <span className="me-2">🗃</span>
+                                                                        <span>Amplo espaço interno</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div className="carousel-item">
+                                                        <h4 className="text-dark text-center">Fiat Fastback</h4>
+                                                        <img src="/img/groupCar/suv/FATB.png" className="img-fluid d-block mx-auto" style={{ height: '200px', objectFit: 'contain' }} alt="..." />
+
+                                                        <div className="text-center d-none d-md-block rounded mt-5">
+                                                            <p className="text-dark">O Fiat Fastback é ideal para quem procura um carro com um visual dinâmico e sofisticado, oferecendo performance e estilo para os amantes de condução ágil.</p><br></br>
+                                                        </div>
+
+                                                        <div className="container">
+                                                            <div className="row row-cols-2 g-1">
+                                                                <div className="col">
+                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
+                                                                        <span className="me-2">🚪</span>
+                                                                        <span>4 portas</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="col">
+                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
+                                                                        <span className="me-2">❄</span>
+                                                                        <span>Ar-condicionado</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="col">
+                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
+                                                                        <span className="me-2">🔌</span>
+                                                                        <span>Vidro elétrico</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="col">
+                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
+                                                                        <span className="me-2">🚗</span>
+                                                                        <span>Direção hidráulica</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="col">
+                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
+                                                                        <span className="me-2">🛡</span>
+                                                                        <span>Air bag duplo</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="col">
+                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
+                                                                        <span className="me-2">🌟</span>
+                                                                        <span>Design esportivo</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div className="carousel-item">
+                                                        <h4 className="text-dark text-center">Nissan Kicks</h4>
+                                                        <img src="/img/groupCar/suv/KICK.png" className="img-fluid d-block mx-auto" style={{ height: '200px', objectFit: 'contain' }} alt="..." />
+
+                                                        <div className="text-center d-none d-md-block rounded mt-5">
+                                                            <p className="text-dark">O Nissan Kicks combina design moderno e eficiência, tornando-se a escolha ideal para quem busca um SUV compacto e conectado, perfeito para o dia a dia</p><br></br>
                                                         </div>
 
                                                         <div className="container">
@@ -1577,11 +1632,11 @@ function Home() {
                                                     </div>
 
                                                     <div className="carousel-item">
-                                                        <h4 className="text-dark text-center">GOL</h4>
-                                                        <img src="/img/groupCar/hatch/GOLC.png" className="img-fluid d-block mx-auto" style={{ height: '200px', objectFit: 'contain' }} alt="..." />
+                                                        <h4 className="text-dark text-center">Nivus</h4>
+                                                        <img src="/img/groupCar/suv/NIVU.png" className="img-fluid d-block mx-auto" style={{ height: '200px', objectFit: 'contain' }} alt="..." />
 
                                                         <div className="text-center d-none d-md-block rounded mt-5">
-                                                            <p className="text-dark">O Volkswagen Gol é um carro versátil que se adapta facilmente a diferentes estilos de viagem, tornando-se uma escolha confiável para qualquer ocasião de aluguel.</p><br></br>
+                                                            <p className="text-dark">O Volkswagen Nivus é ideal para quem busca um SUV versátil e cheio de recursos, oferecendo conforto e tecnologia para uma experiência de direção prática e divertida.</p><br></br>
                                                         </div>
 
                                                         <div className="container">
@@ -1619,7 +1674,7 @@ function Home() {
                                                                 <div className="col">
                                                                     <div className="p-3 border rounded d-flex align-items-center justify-content-start">
                                                                         <span className="me-2">🧳</span>
-                                                                        <span>2 malas pequenas</span>
+                                                                        <span>2 malas grandes</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1627,11 +1682,11 @@ function Home() {
                                                     </div>
 
                                                     <div className="carousel-item">
-                                                        <h4 className="text-dark text-center">Hyundai HB20</h4>
-                                                        <img src="/img/groupCar/hatch/HB2X.png" className="img-fluid d-block mx-auto" style={{ height: '200px', objectFit: 'contain' }} alt="..." />
+                                                        <h4 className="text-dark text-center">Fiat Pulse</h4>
+                                                        <img src="/img/groupCar/suv/PLSE.png" className="img-fluid d-block mx-auto" style={{ height: '200px', objectFit: 'contain' }} alt="..." />
 
                                                         <div className="text-center d-none d-md-block rounded mt-5">
-                                                            <p className="text-dark">O Hyundai HB20 proporciona uma excelente experiência de viagem, ideal para quem deseja explorar novos destinos com segurança e conforto.</p><br></br>
+                                                            <p className="text-dark">O Fiat Pulse é perfeito para quem quer um carro moderno e divertido, combinando estilo e tecnologia para uma experiência de aluguel que se destaca nas ruas.</p><br></br>
                                                         </div>
 
                                                         <div className="container">
@@ -1668,8 +1723,8 @@ function Home() {
                                                                 </div>
                                                                 <div className="col">
                                                                     <div className="p-3 border rounded d-flex align-items-center justify-content-start">
-                                                                        <span className="me-2">🚦</span>
-                                                                        <span>ABS</span>
+                                                                        <span className="me-2">🎶</span>
+                                                                        <span>Sistema de som premium</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1677,11 +1732,11 @@ function Home() {
                                                     </div>
 
                                                     <div className="carousel-item">
-                                                        <h4 className="text-dark text-center">Renault Kwid</h4>
-                                                        <img src="/img/groupCar/hatch/KWID.png" className="img-fluid d-block mx-auto" style={{ height: '200px', objectFit: 'contain' }} alt="..." />
+                                                        <h4 className="text-dark text-center">Chevrolet Tracker</h4>
+                                                        <img src="/img/groupCar/suv/TRAT.png" className="img-fluid d-block mx-auto" style={{ height: '200px', objectFit: 'contain' }} alt="..." />
 
                                                         <div className="text-center d-none d-md-block rounded mt-5">
-                                                            <p className="text-dark">O Renault Kwid é uma ótima opção para quem busca um carro compacto e ágil, ideal para explorar a cidade com facilidade e estilo.</p><br></br>
+                                                            <p className="text-dark">O Chevrolet Tracker oferece uma combinação de estilo e segurança, ideal para quem procura um SUV compacto e confiável para suas aventuras urbanas e viagens.</p><br></br>
                                                         </div>
 
                                                         <div className="container">
@@ -1719,107 +1774,7 @@ function Home() {
                                                                 <div className="col">
                                                                     <div className="p-3 border rounded d-flex align-items-center justify-content-start">
                                                                         <span className="me-2">🧳</span>
-                                                                        <span>1 malas pequenas</span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div className="carousel-item">
-                                                        <h4 className="text-dark text-center">Polo</h4>
-                                                        <img src="/img/groupCar/hatch/POLO.png" className="img-fluid d-block mx-auto" style={{ height: '200px', objectFit: 'contain' }} alt="..." />
-
-                                                        <div className="text-center d-none d-md-block rounded mt-5">
-                                                            <p className="text-dark">O Volkswagen Polo oferece um equilíbrio perfeito entre design moderno e funcionalidade, tornando suas jornadas de aluguel mais agradáveis e sofisticadas.</p><br></br>
-                                                        </div>
-
-                                                        <div className="container">
-                                                            <div className="row row-cols-2 g-1">
-                                                                <div className="col">
-                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
-                                                                        <span className="me-2">🚪</span>
-                                                                        <span>4 portas</span>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="col">
-                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
-                                                                        <span className="me-2">❄</span>
-                                                                        <span>Ar-condicionado</span>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="col">
-                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
-                                                                        <span className="me-2">🔌</span>
-                                                                        <span>Vidro elétrico</span>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="col">
-                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
-                                                                        <span className="me-2">🔒</span>
-                                                                        <span>Trava elétrica</span>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="col">
-                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
-                                                                        <span className="me-2">🛡</span>
-                                                                        <span>Air bag duplo</span>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="col">
-                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
-                                                                        <span className="me-2">🚦</span>
-                                                                        <span>ABS</span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div className="carousel-item">
-                                                        <h4 className="text-dark text-center">Chevrolet Onix</h4>
-                                                        <img src="/img/groupCar/hatch/ONIC.png" className="img-fluid d-block mx-auto" style={{ height: '200px', objectFit: 'contain' }} alt="..." />
-
-                                                        <div className="text-center d-none d-md-block rounded mt-5">
-                                                            <p className="text-dark">O Chevrolet Onix é ideal para quem viaja em grupo, proporcionando espaço e conforto, além de ser perfeito para aventuras em família com o sistema de fidelidade.</p><br></br>
-                                                        </div>
-
-                                                        <div className="container">
-                                                            <div className="row row-cols-2 g-1">
-                                                                <div className="col">
-                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
-                                                                        <span className="me-2">🚪</span>
-                                                                        <span>4 portas</span>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="col">
-                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
-                                                                        <span className="me-2">❄</span>
-                                                                        <span>Ar-condicionado</span>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="col">
-                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
-                                                                        <span className="me-2">🔌</span>
-                                                                        <span>Vidro elétrico</span>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="col">
-                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
-                                                                        <span className="me-2">🚗</span>
-                                                                        <span>Direção hidráulica</span>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="col">
-                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
-                                                                        <span className="me-2">🛡</span>
-                                                                        <span>Air bag duplo</span>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="col">
-                                                                    <div className="p-3 border rounded d-flex align-items-center justify-content-start">
-                                                                        <span className="me-2">🧳</span>
-                                                                        <span>1 mala grande</span>
+                                                                        <span>3 malas grande</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1842,18 +1797,9 @@ function Home() {
                             </div>
                         </div>
 
-
-
-
                     </div>
                 </div>
-
-
             </section>
-
-
-
-
         </div>
 
     );
