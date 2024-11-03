@@ -166,110 +166,110 @@ function Home() {
                             </div>
                         </div>
 
-        <div className="col-sm-3 mb-3 mx-2">
-            <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
-                <div className="card-header text-center">
-                    <strong>Volkswagen Polo</strong>
-                </div>
-                <div className="card-body text-center">
-                    <img src="/img/groupCar/hatch/POLO.png" className="img-fluid" style={{ height: '150px', objectFit: 'contain' }} alt="Volkswagen Polo" />
-                    <p className="card-text mt-3">Compacto e eficiente, o Polo é ideal para quem busca conforto e tecnologia.</p>
-                    <p><strong>Valor:</strong> 220 pontos</p>
-                    <p><strong>Ano:</strong> 2023</p>
-                    <p><strong>Características:</strong> Direção Elétrica, Ar-Condicionado, Sistema de Som.</p>
-                    <p><strong>Cores Disponíveis:</strong></p>
-                    <div className="d-flex justify-content-center mt-2">
-                        <button className="btn btn-circle" style={{ backgroundColor: 'black', border: '2px solid black', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
-                        <button className="btn btn-circle" style={{ backgroundColor: 'blue', border: '2px solid black', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
-                        <button className="btn btn-circle" style={{ backgroundColor: 'red', border: '2px solid black', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
+                        <div className="col-sm-3 mb-3 mx-2">
+                            <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
+                                <div className="card-header text-center">
+                                    <strong>Volkswagen Polo</strong>
+                                </div>
+                                <div className="card-body text-center">
+                                    <img src="/img/groupCar/hatch/POLO.png" className="img-fluid" style={{ height: '150px', objectFit: 'contain' }} alt="Volkswagen Polo" />
+                                    <p className="card-text mt-3">Compacto e eficiente, o Polo é ideal para quem busca conforto e tecnologia.</p>
+                                    <p><strong>Valor:</strong> 220 pontos</p>
+                                    <p><strong>Ano:</strong> 2023</p>
+                                    <p><strong>Características:</strong> Direção Elétrica, Ar-Condicionado, Sistema de Som.</p>
+                                    <p><strong>Cores Disponíveis:</strong></p>
+                                    <div className="d-flex justify-content-center mt-2">
+                                        <button className="btn btn-circle" style={{ backgroundColor: 'black', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
+                                        <button className="btn btn-circle" style={{ backgroundColor: 'blue', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
+                                        <button className="btn btn-circle" style={{ backgroundColor: 'white', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
+                                    </div>
+                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                        Trocar pontos agora
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="col-sm-3 mb-3 mx-2">
+                            <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
+                                <div className="card-header text-center">
+                                    <strong>Nissan Frontier</strong>
+                                </div>
+                                <div className="card-body text-center">
+                                    <img src="/img/groupCar/pick-up/FRON.png" className="img-fluid" style={{ height: '150px', objectFit: 'contain' }} alt="Nissan Frontier" />
+                                    <p className="card-text mt-3">A Frontier combina força e tecnologia, perfeita para aventuras.</p>
+                                    <p><strong>Valor:</strong> 350 pontos</p>
+                                    <p><strong>Ano:</strong> 2023</p>
+                                    <p><strong>Características:</strong> Tração 4x4, Câmera de Ré, Controle de Estabilidade.</p>
+                                    <p><strong>Cores Disponíveis:</strong></p>
+                                    <div className="d-flex justify-content-center mt-2">
+                                        <button className="btn btn-circle" style={{ backgroundColor: 'black', border: '2px solid white', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
+                                        <button className="btn btn-circle" style={{ backgroundColor: 'gray', border: '2px solid white', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
+                                        <button className="btn btn-circle" style={{ backgroundColor: 'blue', border: '2px solid white', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
+                                    </div>
+                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                        Trocar pontos agora
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="col-sm-3 mb-3 mx-2">
+                            <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
+                                <div className="card-header text-center">
+                                    <strong>Chevrolet S10</strong>
+                                </div>
+                                <div className="card-body text-center">
+                                    <img src="/img/groupCar/pick-up/S10X.png" className="img-fluid" style={{ height: '150px', objectFit: 'contain' }} alt="Chevrolet S10" />
+                                    <p className="card-text mt-3">Combinando potência e conforto, a S10 é ideal para o trabalho e o lazer.</p>
+                                    <p><strong>Valor:</strong> 370 pontos</p>
+                                    <p><strong>Ano:</strong> 2023</p>
+                                    <p><strong>Características:</strong> Ar-Condicionado, Câmbio Automático, Sistema de Navegação.</p>
+                                    <p><strong>Cores Disponíveis:</strong></p>
+                                    <div className="d-flex justify-content-center mt-2">
+                                        <button className="btn btn-circle" style={{ backgroundColor: 'black', border: '2px solid white', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
+                                        <button className="btn btn-circle" style={{ backgroundColor: 'silver', border: '2px solid white', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
+                                        <button className="btn btn-circle" style={{ backgroundColor: 'red', border: '2px solid white', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
+                                    </div>
+                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                        Trocar pontos agora
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="col-sm-3 mb-3 mx-2">
+                            <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
+                                <div className="card-header text-center">
+                                    <strong>Fiat Toro</strong>
+                                </div>
+                                <div className="card-body text-center">
+                                    <img src="/img/groupCar/pick-up/TO4D.png" className="img-fluid" style={{ height: '150px', objectFit: 'contain' }} alt="Fiat Toro" />
+                                    <p className="card-text mt-3">A Toro oferece um design moderno e funcionalidades inovadoras para o dia a dia.</p>
+                                    <p><strong>Valor:</strong> 330 pontos</p>
+                                    <p><strong>Ano:</strong> 2023</p>
+                                    <p><strong>Características:</strong> Central Multimídia, Câmera de Ré, Controle de Trilha.</p>
+                                    <p><strong>Cores Disponíveis:</strong></p>
+                                    <div className="d-flex justify-content-center mt-2">
+                                        <button className="btn btn-circle" style={{ backgroundColor: 'black', border: '2px solid white', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
+                                        <button className="btn btn-circle" style={{ backgroundColor: 'white', border: '2px solid gray', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
+                                        <button className="btn btn-circle" style={{ backgroundColor: 'red', border: '2px solid white', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
+                                    </div>
+                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                        Trocar pontos agora
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                        Trocar pontos agora
-                    </button>
                 </div>
-            </div>
-        </div>
-
-        
-        <div className="col-sm-3 mb-3 mx-2">
-            <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
-                <div className="card-header text-center">
-                    <strong>Nissan Frontier</strong>
-                </div>
-                <div className="card-body text-center">
-                    <img src="/img/groupCar/pickup/FRONTIER.png" className="img-fluid" style={{ height: '150px', objectFit: 'contain' }} alt="Nissan Frontier" />
-                    <p className="card-text mt-3">A Frontier combina força e tecnologia, perfeita para aventuras.</p>
-                    <p><strong>Valor:</strong> 350 pontos</p>
-                    <p><strong>Ano:</strong> 2023</p>
-                    <p><strong>Características:</strong> Tração 4x4, Câmera de Ré, Controle de Estabilidade.</p>
-                    <p><strong>Cores Disponíveis:</strong></p>
-                    <div className="d-flex justify-content-center mt-2">
-                        <button className="btn btn-circle" style={{ backgroundColor: 'black', border: '2px solid white', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
-                        <button className="btn btn-circle" style={{ backgroundColor: 'gray', border: '2px solid white', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
-                        <button className="btn btn-circle" style={{ backgroundColor: 'blue', border: '2px solid white', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
-                    </div>
-                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                        Trocar pontos agora
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        
-        <div className="col-sm-3 mb-3 mx-2">
-            <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
-                <div className="card-header text-center">
-                    <strong>Chevrolet S10</strong>
-                </div>
-                <div className="card-body text-center">
-                    <img src="/img/groupCar/pickup/S10.png" className="img-fluid" style={{ height: '150px', objectFit: 'contain' }} alt="Chevrolet S10" />
-                    <p className="card-text mt-3">Combinando potência e conforto, a S10 é ideal para o trabalho e o lazer.</p>
-                    <p><strong>Valor:</strong> 370 pontos</p>
-                    <p><strong>Ano:</strong> 2023</p>
-                    <p><strong>Características:</strong> Ar-Condicionado, Câmbio Automático, Sistema de Navegação.</p>
-                    <p><strong>Cores Disponíveis:</strong></p>
-                    <div className="d-flex justify-content-center mt-2">
-                        <button className="btn btn-circle" style={{ backgroundColor: 'black', border: '2px solid white', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
-                        <button className="btn btn-circle" style={{ backgroundColor: 'silver', border: '2px solid white', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
-                        <button className="btn btn-circle" style={{ backgroundColor: 'red', border: '2px solid white', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
-                    </div>
-                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal5">
-                        Trocar pontos agora
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        
-        <div className="col-sm-3 mb-3 mx-2">
-            <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
-                <div className="card-header text-center">
-                    <strong>Fiat Toro</strong>
-                </div>
-                <div className="card-body text-center">
-                    <img src="/img/groupCar/pickup/TORO.png" className="img-fluid" style={{ height: '150px', objectFit: 'contain' }} alt="Fiat Toro" />
-                    <p className="card-text mt-3">A Toro oferece um design moderno e funcionalidades inovadoras para o dia a dia.</p>
-                    <p><strong>Valor:</strong> 330 pontos</p>
-                    <p><strong>Ano:</strong> 2023</p>
-                    <p><strong>Características:</strong> Central Multimídia, Câmera de Ré, Controle de Trilha.</p>
-                    <p><strong>Cores Disponíveis:</strong></p>
-                    <div className="d-flex justify-content-center mt-2">
-                        <button className="btn btn-circle" style={{ backgroundColor: 'black', border: '2px solid white', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
-                        <button className="btn btn-circle" style={{ backgroundColor: 'white', border: '2px solid gray', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
-                        <button className="btn btn-circle" style={{ backgroundColor: 'red', border: '2px solid white', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
-                    </div>
-                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
-                        Trocar pontos agora
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
-           
+
 
 
 
