@@ -112,6 +112,10 @@ function Home() {
                 </div>
             </section>
 
+            <section className='section3'>
+                
+            </section>
+
             <section className='section2'>
                 <img className='banner' src='/img/banner2.png' alt='Banner'></img>
                 <h1 className="mt-5 text-center">Explore Nossa Variedade de Modelos de Carros</h1>
