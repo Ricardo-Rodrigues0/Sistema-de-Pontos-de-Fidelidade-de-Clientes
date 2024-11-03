@@ -71,7 +71,7 @@ function Login() {
                         <img src='/img/City-driver.gif' alt='' className="img-fluid" />
                     </div>
                     <div className="col-md-6 col-lg-5 col-xl-4">
-                        <img className='form-img' src='/img/localiza-logo2.png' alt='' />
+                        <img className='form-img' src='/img/localiza-logo2.png' alt='logo' />
                         <form onSubmit={handleLogin}>
                             {message && <p>{message}</p>}
 
