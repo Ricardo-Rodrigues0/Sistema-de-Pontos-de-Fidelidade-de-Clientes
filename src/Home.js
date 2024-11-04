@@ -353,10 +353,10 @@ function Home() {
 
 
                 <div className="d-flex justify-content-center mt-3">
-    <button type="button" className="btn btn-success mx-3 mb-5 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal11">
-    Confira a variedade de produtos
-    </button>
-</div>
+                    <button type="button" className="btn btn-success mx-3 mb-5 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal11">
+                        Confira a variedade de produtos
+                    </button>
+                </div>
 
 
 
