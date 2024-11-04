@@ -136,8 +136,8 @@ function Home() {
                                         <button className="btn btn-circle" style={{ backgroundColor: 'red', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                     </div>
                                     <button type="button" className="btn btn btn-outline-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
-                                        Resgatar por <strong>200 pontos</strong>    
-                                        </button>
+                                        Resgatar por <strong>200 pontos</strong>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -160,8 +160,8 @@ function Home() {
                                         <button className="btn btn-circle" style={{ backgroundColor: 'white', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                     </div>
                                     <button type="button" className="btn btn btn-outline-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
-                                        Resgatar por <strong>250 pontos</strong>    
-                                        </button>
+                                        Resgatar por <strong>250 pontos</strong>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -186,8 +186,8 @@ function Home() {
                                         <button className="btn btn-circle" style={{ backgroundColor: 'red', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                     </div>
                                     <button type="button" className="btn btn btn-outline-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
-                                        Resgatar por <strong>370 pontos</strong>    
-                                        </button>
+                                        Resgatar por <strong>370 pontos</strong>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -211,8 +211,8 @@ function Home() {
                                         <button className="btn btn-circle" style={{ backgroundColor: '#433634   ', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                     </div>
                                     <div className="mt-auto">
-                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
-                                        Resgatar por <strong>330 pontos</strong>    
+                                        <button type="button" className="btn btn btn-outline-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                            Resgatar por <strong>330 pontos</strong>
                                         </button>
                                     </div>
                                 </div>
@@ -243,8 +243,8 @@ function Home() {
                                         <button className="btn btn-circle" style={{ backgroundColor: 'white', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                     </div>
                                     <div className="mt-auto">
-                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
-                                        Resgatar por <strong>400 pontos</strong>    
+                                        <button type="button" className="btn btn btn-outline-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                            Resgatar por <strong>400 pontos</strong>
                                         </button>
                                     </div>
                                 </div>
@@ -270,8 +270,8 @@ function Home() {
                                         <button className="btn btn-circle" style={{ backgroundColor: 'black', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                     </div>
                                     <div className="mt-auto">
-                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
-                                        Resgatar por <strong>500 pontos</strong>    
+                                        <button type="button" className="btn btn btn-outline-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                            Resgatar por <strong>500 pontos</strong>
                                         </button>
                                     </div>
                                 </div>
@@ -297,8 +297,8 @@ function Home() {
                                         <button className="btn btn-circle" style={{ backgroundColor: 'black', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                     </div>
                                     <div className="mt-auto">
-                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
-                                        Resgatar por <strong>270 pontos</strong>    
+                                        <button type="button" className="btn btn btn-outline-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                            Resgatar por <strong>270 pontos</strong>
                                         </button>
                                     </div>
                                 </div>
@@ -324,8 +324,8 @@ function Home() {
                                         <button className="btn btn-circle" style={{ backgroundColor: '#82847F', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                     </div>
                                     <div className="mt-auto">
-                                        <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
-                                        Resgatar por <strong>350 pontos</strong>    
+                                        <button type="button" className="btn btn btn-outline-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                            Resgatar por <strong>350 pontos</strong>
                                         </button>
                                     </div>
                                 </div>
@@ -350,8 +350,8 @@ function Home() {
                                         <button className="btn btn-circle" style={{ backgroundColor: 'gray', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                     </div>
                                     <div className="mt-auto">
-                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
-                                        Resgatar por <strong>450 pontos</strong>    
+                                        <button type="button" className="btn btn btn-outline-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                            Resgatar por <strong>450 pontos</strong>
                                         </button>
                                     </div>
                                 </div>
