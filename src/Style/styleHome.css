@@ -92,3 +92,32 @@ nav {
     align-items: center;
     padding-bottom: 15rem;
 }
+
+.linha-horizontal {
+    position: relative; /* Para posicionar os pseudo-elementos */
+    width: 70%; /* Largura da linha */
+    height: 2px; /* Altura da linha */
+    background-color: #ccc; /* Cor da linha */
+    margin: 20px auto; /* Margem acima e abaixo, e auto para centralizar */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Efeito de sombra */
+  }
+  
+  
+  .linha-horizontal::before,
+  .linha-horizontal::after {
+    content: ''; /* Necessário para pseudo-elementos */
+    position: absolute; /* Para posicionamento em relação à linha */
+    top: -5px; /* Para ajustar a posição acima da linha */
+    width: 25px; /* Largura das extremidades */
+    height: 2px; /* Altura das extremidades */
+    background-color: #ccc; /* Cor das extremidades */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Efeito de sombra */
+  }
+  
+  .linha-horizontal::before {
+    left: -30px; /* Ajuste para a esquerda */
+  }
+  
+  .linha-horizontal::after {
+    right: -30px; /* Ajuste para a direita */
+  }

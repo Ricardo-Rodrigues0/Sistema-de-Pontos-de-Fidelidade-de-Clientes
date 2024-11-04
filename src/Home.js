@@ -112,6 +112,8 @@ function Home() {
                 </div>
             </section>
 
+            <div className='linha-horizontal'></div>
+
             <section className='section3'>
                 <h1 className="mt-5 text-center">Conheça Nossos Produtos</h1>
                 <p className="lead text-center mb-5">Confira os modelos disponíveis e os pontos necessários para resgatar o seu veículo!</p>
