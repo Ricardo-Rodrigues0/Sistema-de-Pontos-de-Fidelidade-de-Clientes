@@ -117,51 +117,51 @@ function Home() {
                 <p className="lead text-center mb-5">Confira os modelos disponíveis e os pontos necessários para resgatar o seu veículo!</p>
 
                 <div className="container mt-5">
-                    <div className="row justify-content-center">
+                    <div className="card-group  justify-content-center">
                         <div className="col-sm-3 mb-3 mx-2">
-                            <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
+                            <div className="card h-100" style={{ backgroundColor: '#f8f9fa' }}>
                                 <div className="card-header text-center">
                                     <strong>Hyundai HB20</strong>
                                 </div>
-                                <div className="card-body text-center">
+                                <div className="card-body d-flex flex-column text-center">
                                     <img src="/img/groupCar/hatch/HB2X.png" className="img-fluid" style={{ height: '150px', objectFit: 'contain' }} alt="Hyundai HB20" />
                                     <p className="card-text mt-3">Compacto e prático, o hatch é perfeito para o dia a dia, combinando agilidade e economia.</p>
-                                    <p><strong>Valor:</strong> 200 pontos</p>
-                                    <p><strong>Ano:</strong> 2023</p>
-                                    <p><strong>Características:</strong> Direção Elétrica, Ar-Condicionado, Bluetooth.</p>
-                                    <p><strong>Cores Disponíveis:</strong></p>
+                                    <p ><strong>Valor:</strong> 200 pontos</p>
+                                    <p ><strong>Ano:</strong> 2023</p>
+                                    <p ><strong>Características:</strong> Direção Elétrica, Ar-Condicionado, Bluetooth.</p>
+                                    <p ><strong>Cores Disponíveis:</strong></p>
                                     <div className="d-flex justify-content-center mt-2">
                                         <button className="btn btn-circle" style={{ backgroundColor: 'black', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                         <button className="btn btn-circle" style={{ backgroundColor: 'silver', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                         <button className="btn btn-circle" style={{ backgroundColor: 'red', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                     </div>
-                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                                        Trocar pontos agora
-                                    </button>
+                                    <button type="button" className="btn btn btn-outline-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                        Resgatar por <strong>200 pontos</strong>    
+                                        </button>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-sm-3 mb-3 mx-2">
-                            <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
+                            <div className="card h-100" style={{ backgroundColor: '#f8f9fa' }}>
                                 <div className="card-header text-center">
                                     <strong>Chevrolet Onix</strong>
                                 </div>
-                                <div className="card-body text-center">
+                                <div className="card-body d-flex flex-column text-center">
                                     <img src="/img/groupCar/hatch/ONIC.png" className="img-fluid" style={{ height: '150px', objectFit: 'contain' }} alt="Chevrolet Onix" />
                                     <p className="card-text mt-3">Um dos líderes de vendas, o Onix oferece conforto e tecnologia de ponta.</p>
-                                    <p><strong>Valor:</strong> 250 pontos</p>
-                                    <p><strong>Ano:</strong> 2023</p>
-                                    <p><strong>Características:</strong> Câmbio Automático, Sensor de Estacionamento, Tela Multimídia.</p>
-                                    <p><strong>Cores Disponíveis:</strong></p>
+                                    <p ><strong>Valor:</strong> 250 pontos</p>
+                                    <p ><strong>Ano:</strong> 2023</p>
+                                    <p ><strong>Características:</strong> Câmbio Automático, Sensor de Estacionamento, Tela Multimídia.</p>
+                                    <p ><strong>Cores Disponíveis:</strong></p>
                                     <div className="d-flex justify-content-center mt-2">
                                         <button className="btn btn-circle" style={{ backgroundColor: 'black', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                         <button className="btn btn-circle" style={{ backgroundColor: '#545452', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                         <button className="btn btn-circle" style={{ backgroundColor: 'white', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                     </div>
-                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                                        Trocar pontos agora
-                                    </button>
+                                    <button type="button" className="btn btn btn-outline-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                        Resgatar por <strong>250 pontos</strong>    
+                                        </button>
                                 </div>
                             </div>
                         </div>
@@ -169,50 +169,52 @@ function Home() {
 
 
                         <div className="col-sm-3 mb-3 mx-2">
-                            <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
+                            <div className="card h-100" style={{ backgroundColor: '#f8f9fa' }}>
                                 <div className="card-header text-center">
                                     <strong>Chevrolet S10</strong>
                                 </div>
-                                <div className="card-body text-center">
+                                <div className="card-body d-flex flex-column text-center">
                                     <img src="/img/groupCar/pick-up/S10X.png" className="img-fluid" style={{ height: '150px', objectFit: 'contain' }} alt="Chevrolet S10" />
                                     <p className="card-text mt-3">Combinando potência e conforto, a S10 é ideal para o trabalho e o lazer.</p>
-                                    <p><strong>Valor:</strong> 370 pontos</p>
-                                    <p><strong>Ano:</strong> 2023</p>
-                                    <p><strong>Características:</strong> Ar-Condicionado, Câmbio Automático, Sistema de Navegação.</p>
-                                    <p><strong>Cores Disponíveis:</strong></p>
+                                    <p ><strong>Valor:</strong> 370 pontos</p>
+                                    <p ><strong>Ano:</strong> 2023</p>
+                                    <p ><strong>Características:</strong> Ar-Condicionado, Câmbio Automático, Sistema de Navegação.</p>
+                                    <p ><strong>Cores Disponíveis:</strong></p>
                                     <div className="d-flex justify-content-center mt-2">
                                         <button className="btn btn-circle" style={{ backgroundColor: 'black', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                         <button className="btn btn-circle" style={{ backgroundColor: '#C8D0D8', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                         <button className="btn btn-circle" style={{ backgroundColor: 'red', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                     </div>
-                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal5">
-                                        Trocar pontos agora
-                                    </button>
+                                    <button type="button" className="btn btn btn-outline-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                        Resgatar por <strong>370 pontos</strong>    
+                                        </button>
                                 </div>
                             </div>
                         </div>
 
 
                         <div className="col-sm-3 mb-3 mx-2">
-                            <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
+                            <div className="card h-100" style={{ backgroundColor: '#f8f9fa' }}>
                                 <div className="card-header text-center">
                                     <strong>Fiat Toro</strong>
                                 </div>
-                                <div className="card-body text-center">
+                                <div className="card-body d-flex flex-column text-center">
                                     <img src="/img/groupCar/pick-up/TO4D.png" className="img-fluid" style={{ height: '150px', objectFit: 'contain' }} alt="Fiat Toro" />
                                     <p className="card-text mt-3">A Toro oferece um design moderno e funcionalidades inovadoras para o dia a dia.</p>
-                                    <p><strong>Valor:</strong> 330 pontos</p>
-                                    <p><strong>Ano:</strong> 2023</p>
-                                    <p><strong>Características:</strong> Central Multimídia, Câmera de Ré, Controle de Trilha.</p>
-                                    <p><strong>Cores Disponíveis:</strong></p>
+                                    <p ><strong>Valor:</strong> 330 pontos</p>
+                                    <p ><strong>Ano:</strong> 2023</p>
+                                    <p ><strong>Características:</strong> Central Multimídia, Câmera de Ré, Controle de Trilha.</p>
+                                    <p ><strong>Cores Disponíveis:</strong></p>
                                     <div className="d-flex justify-content-center mt-2">
                                         <button className="btn btn-circle" style={{ backgroundColor: 'black', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                         <button className="btn btn-circle" style={{ backgroundColor: 'white', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                         <button className="btn btn-circle" style={{ backgroundColor: '#433634   ', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                     </div>
+                                    <div className="mt-auto">
                                     <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
-                                        Trocar pontos agora
-                                    </button>
+                                        Resgatar por <strong>330 pontos</strong>    
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -224,124 +226,134 @@ function Home() {
 
 
                         <div className="col-sm-3 mb-3 mx-2">
-                            <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
+                            <div className="card h-100" style={{ backgroundColor: '#f8f9fa' }}>
                                 <div className="card-header text-center">
                                     <strong>Toyota Corolla</strong>
                                 </div>
-                                <div className="card-body text-center">
+                                <div className="card-body d-flex flex-column text-center">
                                     <img src="/img/groupCar/premium/COLB.png" className="img-fluid" style={{ height: '150px', objectFit: 'contain' }} alt="Toyota Corolla" />
                                     <p className="card-text mt-3">Um dos sedans mais vendidos, combina conforto e tecnologia em um só carro.</p>
-                                    <p><strong>Valor:</strong> 400 pontos</p>
-                                    <p><strong>Ano:</strong> 2023</p>
-                                    <p><strong>Características:</strong> Assistência de Estacionamento, Conectividade, Ar-Condicionado Dual Zone.</p>
-                                    <p><strong>Cores Disponíveis:</strong></p>
+                                    <p ><strong>Valor:</strong> 400 pontos</p>
+                                    <p ><strong>Ano:</strong> 2023</p>
+                                    <p ><strong>Características:</strong> Assistência de Estacionamento, Conectividade, Ar-Condicionado Dual Zone.</p>
+                                    <p ><strong>Cores Disponíveis:</strong></p>
                                     <div className="d-flex justify-content-center mt-2">
                                         <button className="btn btn-circle" style={{ backgroundColor: 'black', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                         <button className="btn btn-circle" style={{ backgroundColor: 'silver', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                         <button className="btn btn-circle" style={{ backgroundColor: 'white', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                     </div>
-                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal7">
-                                        Trocar pontos agora
-                                    </button>
+                                    <div className="mt-auto">
+                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                        Resgatar por <strong>400 pontos</strong>    
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
 
                         <div className="col-sm-3 mb-3 mx-2">
-                            <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
+                            <div className="card h-100" style={{ backgroundColor: '#f8f9fa' }}>
                                 <div className="card-header text-center">
                                     <strong>Audi A3</strong>
                                 </div>
-                                <div className="card-body text-center">
+                                <div className="card-body d-flex flex-column text-center">
                                     <img src="/img/groupCar/premium/AUD3.png" className="img-fluid" style={{ height: '150px', objectFit: 'contain' }} alt="Audi A3" />
-                                    <p className="card-text mt-3">Um hatch premium que oferece performance, conforto e tecnologia avançada.</p>
-                                    <p><strong>Valor:</strong> 500 pontos</p>
-                                    <p><strong>Ano:</strong> 2023</p>
-                                    <p><strong>Características:</strong> Sistema de Som Bang & Olufsen, Controle de Climatização Automática.</p>
-                                    <p><strong>Cores Disponíveis:</strong></p>
+                                    <p className="card-text mt-3">Um hatch premium que oferece performance e tecnologia avançada.</p>
+                                    <p ><strong>Valor:</strong> 500 pontos</p>
+                                    <p ><strong>Ano:</strong> 2023</p>
+                                    <p ><strong>Características:</strong> Sistema de Som Bang & Olufsen, Controle de Climatização Automática.</p>
+                                    <p ><strong>Cores Disponíveis:</strong></p>
                                     <div className="d-flex justify-content-center mt-2">
                                         <button className="btn btn-circle" style={{ backgroundColor: 'red', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                         <button className="btn btn-circle" style={{ backgroundColor: 'white', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                         <button className="btn btn-circle" style={{ backgroundColor: 'black', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                     </div>
-                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal8">
-                                        Trocar pontos agora
-                                    </button>
+                                    <div className="mt-auto">
+                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                        Resgatar por <strong>500 pontos</strong>    
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
 
                         <div className="col-sm-3 mb-3 mx-2">
-                            <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
+                            <div className="card h-100" style={{ backgroundColor: '#f8f9fa' }}>
                                 <div className="card-header text-center">
                                     <strong>Fiat Cronos</strong>
                                 </div>
-                                <div className="card-body text-center">
+                                <div className="card-body d-flex flex-column text-center">
                                     <img src="/img/groupCar/sedan/CROM.png" className="img-fluid" style={{ height: '150px', objectFit: 'contain' }} alt="Fiat Cronos" />
                                     <p className="card-text mt-3">O Cronos combina espaço, conforto e tecnologia em um design moderno.</p>
-                                    <p><strong>Valor:</strong> 270 pontos</p>
-                                    <p><strong>Ano:</strong> 2023</p>
-                                    <p><strong>Características:</strong> Tela Multimídia, Sensor de Estacionamento, Direção Elétrica.</p>
-                                    <p><strong>Cores Disponíveis:</strong></p>
+                                    <p ><strong>Valor:</strong> 270 pontos</p>
+                                    <p ><strong>Ano:</strong> 2023</p>
+                                    <p ><strong>Características:</strong> Tela Multimídia, Sensor de Estacionamento, Direção Elétrica, Painel Digital.</p>
+                                    <p ><strong>Cores Disponíveis:</strong></p>
                                     <div className="d-flex justify-content-center mt-2">
                                         <button className="btn btn-circle" style={{ backgroundColor: 'red', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                         <button className="btn btn-circle" style={{ backgroundColor: '#CBCBCC', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                         <button className="btn btn-circle" style={{ backgroundColor: 'black', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                     </div>
-                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal9">
-                                        Trocar pontos agora
-                                    </button>
+                                    <div className="mt-auto">
+                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                        Resgatar por <strong>270 pontos</strong>    
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
 
                         <div className="col-sm-3 mb-3 mx-2">
-                            <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
+                            <div className="card h-100" style={{ backgroundColor: '#f8f9fa' }}>
                                 <div className="card-header text-center">
                                     <strong>Virtus</strong>
                                 </div>
-                                <div className="card-body text-center">
+                                <div className="card-body d-flex flex-column text-center">
                                     <img src="/img/groupCar/sedan/VIRF.png" className="img-fluid" style={{ height: '150px', objectFit: 'contain' }} alt="Virtus" />
                                     <p className="card-text mt-3">Um sedan espaçoso, ideal para quem busca conforto e tecnologia.</p>
-                                    <p><strong>Valor:</strong> 350 pontos</p>
-                                    <p><strong>Ano:</strong> 2023</p>
-                                    <p><strong>Características:</strong> Controle de Estabilidade, Assistente de Subida, Painel Digital.</p>
-                                    <p><strong>Cores Disponíveis:</strong></p>
+                                    <p ><strong>Valor:</strong> 350 pontos</p>
+                                    <p ><strong>Ano:</strong> 2023</p>
+                                    <p ><strong>Características:</strong> Controle de Estabilidade, Assistente de Subida, Painel Digital.</p>
+                                    <p ><strong>Cores Disponíveis:</strong></p>
                                     <div className="d-flex justify-content-center mt-2">
                                         <button className="btn btn-circle" style={{ backgroundColor: 'black', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                         <button className="btn btn-circle" style={{ backgroundColor: 'white', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                         <button className="btn btn-circle" style={{ backgroundColor: '#82847F', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                     </div>
-                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal10">
-                                        Trocar pontos agora
-                                    </button>
+                                    <div className="mt-auto">
+                                        <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                        Resgatar por <strong>350 pontos</strong>    
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-sm-3 mb-3 mx-2">
-                            <div className="card" style={{ backgroundColor: '#f8f9fa' }}>
+                            <div className="card h-100" style={{ backgroundColor: '#f8f9fa' }}>
                                 <div className="card-header text-center">
                                     <strong>Hyundai Creta</strong>
                                 </div>
-                                <div className="card-body text-center">
+                                <div className="card-body d-flex flex-column text-center">
                                     <img src="/img/groupCar/suv/CRTA.png" className="img-fluid" style={{ height: '150px', objectFit: 'contain' }} alt="Hyundai Creta" />
-                                    <p className="card-text mt-3">O Creta é um SUV que combina conforto, espaço e tecnologia em um só carro.</p>
-                                    <p><strong>Valor:</strong> 450 pontos</p>
-                                    <p><strong>Ano:</strong> 2023</p>
-                                    <p><strong>Características:</strong> Central Multimídia com Tela de 10", Câmera 360°, Assistência de Estacionamento.</p>
-                                    <p><strong>Cores Disponíveis:</strong></p>
+                                    <p className="card-text mt-3">O Creta é um SUV que combina conforto e tecnologia em um só carro.</p>
+                                    <p ><strong>Valor:</strong> 450 pontos</p>
+                                    <p ><strong>Ano:</strong> 2023</p>
+                                    <p ><strong>Características:</strong> Central Multimídia com Tela de 10", Câmera 360°, Assistência de Estacionamento.</p>
+                                    <p ><strong>Cores Disponíveis:</strong></p>
                                     <div className="d-flex justify-content-center mt-2">
                                         <button className="btn btn-circle" style={{ backgroundColor: 'black', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                         <button className="btn btn-circle" style={{ backgroundColor: 'red', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                         <button className="btn btn-circle" style={{ backgroundColor: 'gray', border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
                                     </div>
-                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal11">
-                                        Trocar pontos agora
-                                    </button>
+                                    <div className="mt-auto">
+                                    <button type="button" className="btn btn-success mt-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                        Resgatar por <strong>450 pontos</strong>    
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
