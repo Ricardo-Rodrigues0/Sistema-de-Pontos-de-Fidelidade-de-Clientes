@@ -99,6 +99,7 @@ nav {
     height: 2px; /* Altura da linha */
     background-color: #ccc; /* Cor da linha */
     margin: 20px auto; /* Margem acima e abaixo, e auto para centralizar */
+    margin-top: 5rem;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Efeito de sombra */
   }
   

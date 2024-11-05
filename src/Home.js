@@ -21,7 +21,7 @@ function Home() {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="./Points">
+                                <a className="nav-link active" aria-current="page" href="./points">
                                     Regastar código
                                 </a>
                             </li>
