@@ -2,6 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
+import Points from './points';
 import Login from './Login/Login';
 import Signup from './Login/Signup';
 import ResetPassword from './Login/ResetPassword';
@@ -12,6 +13,7 @@ function App() {
         <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/points" element={<Points />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/signup" element={<Signup />} />
                 <Route path="/resetpassword" element={<ResetPassword />} />
