@@ -1,25 +1,56 @@
-// GenerateCode.js (Atualizado com CodeList)
-import React, { useState } from 'react';
-import CodeList from './CodeList';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 function GenerateCode() {
   const [codeName, setCodeName] = useState('');
-  const [usesLimit, setUsesLimit] = useState('');
-  const [expiryTime, setExpiryTime] = useState('');
+  const [usesLimit, setUsesLimit] = useState('');  // Vai ser tratado no handleGenerateCode
+  const [expiryTime, setExpiryTime] = useState('');  // Vai ser tratado no handleGenerateCode
+  const [points, setPoints] = useState(''); // Novo estado para pontos
   const [generatedCodes, setGeneratedCodes] = useState([]);
 
-  const handleGenerateCode = () => {
+  const handleGenerateCode = async () => {
     const newCode = {
       name: codeName || `CODE-${Math.floor(Math.random() * 100000)}`,
-      usesLimit: usesLimit || 'Unlimited',
-      expiryTime: expiryTime || 'No Expiration',
+      // Se usesLimit estiver vazio ou for 'Unlimited', será 1
+      usesLimit: (usesLimit === '' || usesLimit.toLowerCase() === 'unlimited') ? 1 : parseInt(usesLimit),
+      // Se expiryTime estiver vazio, será 1 (dia)
+      expiryTime: expiryTime ? parseInt(expiryTime) : 1, // Em dias
+      points: parseInt(points) || 0, // Adicionando os pontos
     };
 
-    setGeneratedCodes([...generatedCodes, newCode]);
-    setCodeName('');
-    setUsesLimit('');
-    setExpiryTime('');
+    try {
+      const response = await axios.post('http://localhost:5000/generate-code', newCode);
+      setGeneratedCodes([...generatedCodes, response.data]);
+      setCodeName('');
+      setUsesLimit('');
+      setExpiryTime('');
+      setPoints(''); // Limpa o input de pontos
+    } catch (error) {
+      console.error('Erro ao gerar o código:', error);
+    }
   };
+
+  const fetchCodes = async () => {
+    try {
+      const response = await axios.get('http://localhost:5000/codes');
+      setGeneratedCodes(response.data);
+    } catch (error) {
+      console.error('Erro ao buscar os códigos:', error);
+    }
+  };
+
+  const handleDeleteCode = async (id) => {
+    try {
+      await axios.delete(`http://localhost:5000/delete-code/${id}`);
+      setGeneratedCodes(generatedCodes.filter(code => code.id !== id));
+    } catch (error) {
+      console.error('Erro ao deletar o código:', error);
+    }
+  };
+
+  useEffect(() => {
+    fetchCodes();
+  }, []);
 
   return (
     <div className="container">
@@ -55,12 +86,32 @@ function GenerateCode() {
             onChange={(e) => setExpiryTime(e.target.value)}
           />
         </div>
+        <div className="form-group">
+          <label>Pontos do Código</label>
+          <input
+            type="number"
+            className="form-control"
+            placeholder="Digite a quantidade de pontos"
+            value={points}
+            onChange={(e) => setPoints(e.target.value)}
+          />
+        </div>
         <button type="button" className="btn btn-primary mt-3" onClick={handleGenerateCode}>
           Gerar Código
         </button>
       </form>
 
-      <CodeList codes={generatedCodes} />
+      <h3>Códigos Gerados</h3>
+      <ul>
+        {generatedCodes.map((code) => (
+          <li key={code.id}>
+            {code.name} - Usos Restantes: {code.usesLimit} - Expira em: {new Date(code.expiryTime).toLocaleDateString()} - Pontos: {code.points}
+            <button className="btn btn-danger btn-sm ml-2" onClick={() => handleDeleteCode(code.id)}>
+              Excluir
+            </button>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
