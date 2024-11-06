@@ -31,6 +31,11 @@ function Home() {
                                 </a>
                             </li>
                             <li className="nav-item">
+                                <a className="nav-link active" href="./GenerateCode">
+                                    Gerar Código
+                                </a>
+                            </li>
+                            <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="/">
                                     Grupos
                                 </a>

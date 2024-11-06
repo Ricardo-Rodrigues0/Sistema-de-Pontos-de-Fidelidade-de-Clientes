@@ -7,6 +7,8 @@ import Login from './Login/Login';
 import Signup from './Login/Signup';
 import ResetPassword from './Login/ResetPassword';
 import Welcome from './Welcome';
+import GenerateCode from './GenerateCode';
+import CodeList from './CodeList';
 
 function App() {
     return (
@@ -18,6 +20,8 @@ function App() {
                 <Route path="/signup" element={<Signup />} />
                 <Route path="/resetpassword" element={<ResetPassword />} />
                 <Route path="/welcome" element={<Welcome />} />
+                <Route path="/generatecode" element={<GenerateCode />} />
+                <Route path="/codelist" element={<CodeList />} />
             </Routes>
         </Router>
     );

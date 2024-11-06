@@ -54,7 +54,7 @@ function Home() {
                             <img src='/img/Secure-data.gif' alt='' className="img-fluid" />
                         </div>
                         <div className="col-md-6 col-lg-5 col-xl-4">
-                            <img className='form-img' src='/img/localiza-logo2.png' alt='' />
+                        <h2 className="mt-5 mb-5 text-center">Resgate seu Código</h2>
                             <form>
 
                                 <div className="form-outline mb-4">
