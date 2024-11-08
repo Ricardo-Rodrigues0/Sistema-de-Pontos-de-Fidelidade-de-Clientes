@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": 1731078805931,
+    "name": "CODE-22794",
+    "usesLimit": 1,
+    "expiryTime": 1731165205931,
+    "points": 0
+  },
+  {
+    "id": 1731078808735,
+    "name": "CODE-79073",
+    "usesLimit": 1,
+    "expiryTime": 1731338008735,
+    "points": 0
+  },
+  {
+    "id": 1731078810429,
+    "name": "CODE-54210",
+    "usesLimit": 1,
+    "expiryTime": 1731251610429,
+    "points": 0
+  },
+  {
+    "id": 1731078810732,
+    "name": "CODE-46761",
+    "usesLimit": 1,
+    "expiryTime": 1731165210732,
+    "points": 0
+  },
+  {
+    "id": 1731078810883,
+    "name": "CODE-60402",
+    "usesLimit": 1,
+    "expiryTime": 1731165210883,
+    "points": 0
+  },
+  {
+    "id": 1731078812379,
+    "name": "CODE-11125",
+    "usesLimit": 1,
+    "expiryTime": 1731165212379,
+    "points": 0
+  }
+]

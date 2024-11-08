@@ -17,7 +17,7 @@ function GenerateCode() {
         const newCode = {
             name: codeName || `CODE-${Math.floor(Math.random() * 100000)}`,
             usesLimit: usesLimit ? parseInt(usesLimit) : 1,  // Define 1 como valor padrão se usesLimit estiver vazio
-            expiryTime: expiryTime ? parseInt(expiryTime) : null,
+            expiryTime: expiryTime ? parseInt(expiryTime) : 1,
             points: parseInt(points) || 0,
         };
 

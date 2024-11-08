@@ -32,7 +32,7 @@ coverage/
 .DS_Store
 Thumbs.db
 
-# Ignorar o codes.json na raiz do projeto
+# Ignorar o arquivo firebase
 src/firebase/firebase.js
 
 # Ignorar arquivos de cache
