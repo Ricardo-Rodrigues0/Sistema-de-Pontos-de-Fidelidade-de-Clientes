@@ -32,7 +32,7 @@ function CodeList() {
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">
-                        <img src="/img/localiza-logo.svg" alt="Localiza Logo" />
+                        <img src="./image/BannerLogos/imgLogo1.svg" alt="Localiza Logo" />
                     </a>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -102,7 +102,7 @@ function CodeList() {
 
             <div className="fooster d-flex flex-column flex-md-row align-items-center justify-content-between py-4 px-4 px-xl-5 bg-success fixed-bottom">
                 <div className="logo">
-                    <img src="/img/localiza-logo.svg" alt="Logo Localiza" />
+                    <img src="./image/BannerLogos/imgLogo1.svg" alt="Logo Localiza" />
                 </div>
                 <div className="text-center text-md-center text-white flex-grow-1">
                     Copyright © 2024. "Esta página é uma aplicação inspirada na Localiza, criada apenas para fins de estudo e aprendizado."

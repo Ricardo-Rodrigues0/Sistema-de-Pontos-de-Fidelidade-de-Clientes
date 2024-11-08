@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { signInWithEmailAndPassword, signInWithPopup } from 'firebase/auth';
-import { auth, googleProvider } from '../Database/firebase';
+import { auth, googleProvider } from '../firebase/firebase';
 import { useNavigate, Link } from 'react-router-dom';
-import '../Style/styleLogin.css';
+import '../assets/Style/styleLogin.css';
 
 function Login() {
     const [email, setEmail] = useState('');
@@ -68,10 +68,10 @@ function Login() {
             <div className="container-fluid h-custom">
                 <div className="row d-flex justify-content-center align-items-center h-100">
                     <div className="hide-img col-md-6 col-lg-5 col-xl-4">
-                        <img src='/img/City-driver.gif' alt='' className="img-fluid" />
+                        <img src='./image/BannerLogos/imgLogin.gif' alt='' className="img-fluid" />
                     </div>
                     <div className="col-md-6 col-lg-5 col-xl-4">
-                        <img className='form-img' src='/img/localiza-logo2.png' alt='logo' />
+                        <img className='form-img' src='./image/BannerLogos/imgLogo2.png' alt='logo' />
                         <form onSubmit={handleLogin}>
                             {message && <p>{message}</p>}
 
@@ -145,7 +145,7 @@ function Login() {
             </div>
             <div className="fooster d-flex flex-column flex-md-row align-items-center justify-content-between py-4 px-4 px-xl-5 bg-success">
                 <div className="logo">
-                    <img src='/img/localiza-logo.svg' alt='Logo Localiza' />
+                    <img src='./image/BannerLogos/imgLogo1.svg' alt='Logo Localiza' />
                 </div>
                 <div className="text-center text-md-center text-white flex-grow-1">
                     Copyright © 2024. "Esta página é uma aplicação inspirada na Localiza, criada apenas para fins de estudo e aprendizado."

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
-import { auth } from '../Database/firebase'; 
-import { useNavigate, Link } from 'react-router-dom'; 
-import '../Style/styleLogin.css';
+import { auth } from '../firebase/firebase';
+import { useNavigate, Link } from 'react-router-dom';
+import '../assets/Style/styleLogin.css';    
 
 function Signup() {
     const [email, setEmail] = useState('');
@@ -42,10 +42,10 @@ function Signup() {
             <div className="container-fluid h-custom">
                 <div className="row d-flex justify-content-center align-items-center h-100">
                     <div className="hide-img col-md-6 col-lg-5 col-xl-4">
-                        <img src='/img/City-driver.gif' alt='' className="img-fluid" />
+                        <img src='./image/BannerLogos/imgLogin.gif' alt='' className="img-fluid" />
                     </div>
                     <div className="col-md-6 col-lg-5 col-xl-4">
-                        <img className='form-img' src='/img/localiza-logo2.png' alt='' />
+                        <img className='form-img' src='./image/BannerLogos/imgLogo2.png' alt='' />
                         <form onSubmit={handleSignup}>
                             {message && <p>{message}</p>}
 
@@ -56,7 +56,7 @@ function Signup() {
                                     className="form-control form-control-lg"
                                     placeholder="Digite seu email"
                                     value={email}
-                                    onChange={(e) => setEmail(e.target.value)} 
+                                    onChange={(e) => setEmail(e.target.value)}
                                     required
                                 />
                             </div>
@@ -82,10 +82,10 @@ function Signup() {
                                     Cadastrar
                                 </button>
                                 <p className="small fw-bold mt-2 pt-1 mb-0">
-                                Já possui uma conta na Localiza? <Link to="/login" className="link-success">Acesse sua conta.</Link>
+                                    Já possui uma conta na Localiza? <Link to="/login" className="link-success">Acesse sua conta.</Link>
                                 </p>
                             </div>
-                            
+
                             <div className="divider d-flex align-items-center my-4">
                                 <p className="text-center fw-bold mx-3 mb-0">
                                     <button
@@ -104,7 +104,7 @@ function Signup() {
             </div>
             <div className="fooster d-flex flex-column flex-md-row align-items-center justify-content-between py-4 px-4 px-xl-5 bg-success">
                 <div className="logo">
-                    <img src='/img/localiza-logo.svg' alt='Logo Localiza' />
+                    <img src='./image/BannerLogos/imgLogo1.svg' alt='Logo Localiza' />
                 </div>
                 <div className="text-center text-md-center text-white flex-grow-1">
                     Copyright © 2024. "Esta página é uma aplicação inspirada na Localiza, criada apenas para fins de estudo e aprendizado."

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate, Link } from 'react-router-dom';
+import './assets/Style/styleHome.css';
 
 function GenerateCode() {
     const [codeName, setCodeName] = useState('');
@@ -15,24 +16,24 @@ function GenerateCode() {
     const handleGenerateCode = async () => {
         const newCode = {
             name: codeName || `CODE-${Math.floor(Math.random() * 100000)}`,
-            usesLimit: (usesLimit === '' || usesLimit.toLowerCase() === 'unlimited') ? 1 : parseInt(usesLimit),
-            expiryTime: expiryTime ? parseInt(expiryTime) : 1,
+            usesLimit: usesLimit ? parseInt(usesLimit) : 1,  // Define 1 como valor padrão se usesLimit estiver vazio
+            expiryTime: expiryTime ? parseInt(expiryTime) : null,
             points: parseInt(points) || 0,
         };
 
         try {
             const response = await axios.post('http://localhost:5000/generate-code', newCode);
-            console.log('Resposta da API:', response.data); // Verificar o que está sendo retornado pela API
-            
-            if (response.data.status === "success") {
-                setGeneratedCodes([...generatedCodes, response.data]);
-                setAlertMessage(`Código "${response.data.name}" gerado com sucesso!`);
+
+            if (response.status === 200) {
+                const createdCode = response.data;
+                setGeneratedCodes([...generatedCodes, createdCode]);
+                setAlertMessage(`Código "${createdCode.name}" gerado com sucesso!`);
             } else {
                 setAlertMessage("Erro ao gerar o código.");
             }
             setShowAlert(true);
 
-            // Limpar os campos do formulário após o código ser gerado
+            // Limpar os campos do formulário
             setCodeName('');
             setUsesLimit('');
             setExpiryTime('');
@@ -42,10 +43,11 @@ function GenerateCode() {
             setTimeout(() => setShowAlert(false), 5000);
         } catch (error) {
             console.error('Erro ao gerar o código:', error);
-            setAlertMessage("Erro ao gerar o código. Verifique o console para mais detalhes.");
+            setAlertMessage("Erro ao gerar o código.");
             setShowAlert(true);
         }
     };
+
 
     const fetchCodes = async () => {
         try {
@@ -56,14 +58,7 @@ function GenerateCode() {
         }
     };
 
-    const handleDeleteCode = async (id) => {
-        try {
-            await axios.delete(`http://localhost:5000/delete-code/${id}`);
-            setGeneratedCodes(generatedCodes.filter(code => code.id !== id));
-        } catch (error) {
-            console.error('Erro ao deletar o código:', error);
-        }
-    };
+
 
     useEffect(() => {
         fetchCodes();
@@ -74,7 +69,7 @@ function GenerateCode() {
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">
-                        <img src="/img/localiza-logo.svg" alt="Localiza Logo" />
+                        <img src="./image/BannerLogos/imgLogo1.svg" alt="Localiza Logo" />
                     </a>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -117,7 +112,7 @@ function GenerateCode() {
                 <div className="container-fluid h-custom">
                     <div className="row d-flex justify-content-center align-items-center">
                         <div className="hide-img col-md-6 col-lg-5 col-xl-4">
-                            <img src='/img/Binary-code.gif' alt='' className="mb-5 img-fluid" />
+                            <img src='./image/BannerLogos/imgCodes.gif' alt='' className="mb-5 img-fluid" />
                         </div>
                         <div className="col-md-6 col-lg-5 col-xl-4">
                             <h2 className="mt-5 mb-5 text-center">Gere seu Código</h2>
@@ -175,7 +170,7 @@ function GenerateCode() {
 
             <div className="fooster d-flex flex-column flex-md-row align-items-center justify-content-between py-4 px-4 px-xl-5 bg-success fixed-bottom">
                 <div className="logo">
-                    <img src="/img/localiza-logo.svg" alt="Logo Localiza" />
+                    <img src="./image/BannerLogos/imgLogo1.svg" alt="Logo Localiza" />
                 </div>
                 <div className="text-center text-md-center text-white flex-grow-1">
                     Copyright © 2024. "Esta página é uma aplicação inspirada na Localiza, criada apenas para fins de estudo e aprendizado."
