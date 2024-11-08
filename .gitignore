@@ -33,7 +33,6 @@ coverage/
 Thumbs.db
 
 # Ignorar o codes.json na raiz do projeto
-codes.json
 src/firebase/firebase.js
 
 # Ignorar arquivos de cache
