@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { signInWithEmailAndPassword, signInWithPopup } from 'firebase/auth';
-import { auth, googleProvider } from '../firebase/firebase';
+import { auth, googleProvider } from '../../firebase/firebase';
 import { useNavigate, Link } from 'react-router-dom';
-import '../assets/Style/styleLogin.css';
+import '../../assets/Style/styleLogin.css';
 
 function Login() {
     const [email, setEmail] = useState('');

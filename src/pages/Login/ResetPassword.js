@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { auth } from '../firebase/firebase'; // Ajuste o caminho conforme necessário
+import { auth } from '../../firebase/firebase'; // Ajuste o caminho conforme necessário
 import { sendPasswordResetEmail } from 'firebase/auth';
 import { useNavigate, Link } from 'react-router-dom';
-import '../assets/Style/styleLogin.css';
+import '../../assets/Style/styleLogin.css';
 
 function ResetPassword() {
     const [email, setEmail] = useState('');

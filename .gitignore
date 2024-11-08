@@ -1,25 +1,51 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Dependências do Node.js
+node_modules/
+package-lock.json
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Build output
+build/
+dist/
 
-# testing
-/coverage
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# production
-/build
+# Dependências do Firebase e configurações locais
+firebase-debug.log
+./firebase
 
-# misc
+# Sistema operacional e IDEs
 .DS_Store
+Thumbs.db
+
+# Arquivos de configuração do sistema
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Arquivos de cache e configuração
+.cache/
+.parcel-cache/
+.vscode/
 
-/src/Database
+# Test output
+coverage/
+*.lcov
+
+# Configurações e diretórios do serviço de análise de desempenho
+reportWebVitals.js
+
+# Arquivos gerados pelo servidor
+server.js
+
+# Arquivos JSON de configuração local
+codes.json
+
+# Outros arquivos que não devem ser versionados
+*.swp
+*.tmp

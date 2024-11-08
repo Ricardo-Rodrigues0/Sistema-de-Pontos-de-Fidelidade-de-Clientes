@@ -1,14 +1,14 @@
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './Home';
-import Points from './points';
-import Login from './Login/Login';
-import Signup from './Login/Signup';
-import ResetPassword from './Login/ResetPassword';
-import Welcome from './Welcome';
-import GenerateCode from './GenerateCode';
-import CodeList from './CodeList';
+import Home from './pages/Home';
+import Points from './pages/points';
+import Login from './pages/Login/Login';
+import Signup from './pages/Login/Signup';
+import ResetPassword from './pages/Login/ResetPassword';
+import Welcome from './pages/Welcome';
+import GenerateCode from './pages/admin/GenerateCode';
+import CodeList from './pages/admin/CodeList';
 
 function App() {
     return (
