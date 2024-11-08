@@ -1,12 +1,12 @@
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
+import Home from './pages/home';
 import Points from './pages/points';
-import Login from './pages/Login/Login';
-import Signup from './pages/Login/Signup';
-import ResetPassword from './pages/Login/ResetPassword';
-import Welcome from './pages/Welcome';
+import Login from './pages/login/login';
+import Signup from './pages/login/signup';
+import ResetPassword from './pages/login/resetPassword';
+import Welcome from './pages/welcome';
 import GenerateCode from './pages/admin/GenerateCode';
 import CodeList from './pages/admin/CodeList';
 
