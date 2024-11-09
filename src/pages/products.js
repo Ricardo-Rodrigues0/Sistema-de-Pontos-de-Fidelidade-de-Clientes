@@ -1,18 +1,9 @@
 import React, { useState } from 'react';
 import { Pagination } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import cars from '../services/carData';  // Importando os dados dos carros
 
 const ProductSection = () => {
-    // Lista de produtos com categorias
-    const products = [
-        { name: 'Hyundai HB20', img: '/image/groupCar/hatch/HB2X.png', price: 200, year: 2023, features: 'Direção Elétrica, Ar-Condicionado, Bluetooth', colors: ['black', 'silver', 'red'], category: 'hatch' },
-        { name: 'Chevrolet Onix', img: '/image/groupCar/hatch/ONIC.png', price: 250, year: 2023, features: 'Câmbio Automático, Sensor de Estacionamento, Tela Multimídia', colors: ['black', '#545452', 'white'], category: 'hatch' },
-        { name: 'Chevrolet S10', img: '/image/groupCar/pick-up/S10X.png', price: 370, year: 2023, features: 'Ar-Condicionado, Câmbio Automático, Sistema de Navegação', colors: ['black', '#C8D0D8', 'red'], category: 'pickup' },
-        { name: 'Fiat Toro', img: '/image/groupCar/pick-up/TO4D.png', price: 330, year: 2023, features: 'Central Multimídia, Câmera de Ré, Controle de Trilha', colors: ['black', 'white', '#433634'], category: 'pickup' },
-        { name: 'Toyota Corolla', img: '/image/groupCar/premium/COLB.png', price: 400, year: 2023, features: 'Assistência de Estacionamento, Conectividade, Ar-Condicionado', colors: ['black', 'silver', 'white'], category: 'premium' },
-        { name: 'Audi A3', img: '/image/groupCar/premium/AUD3.png', price: 500, year: 2023, features: 'Performance, Sistema de Navegação e tecnologia avançada', colors: ['black', 'blue', 'white'], category: 'premium' }
-    ];
-
     const itemsPerPage = 6;
     const [currentPage, setCurrentPage] = useState(1);
     const [selectedCategory, setSelectedCategory] = useState('all');
@@ -24,7 +15,7 @@ const ProductSection = () => {
     };
 
     // Filtra produtos pela categoria selecionada
-    const filteredProducts = selectedCategory === 'all' ? products : products.filter(product => product.category === selectedCategory);
+    const filteredProducts = selectedCategory === 'all' ? cars : cars.filter(product => product.category === selectedCategory);
 
     // Calcula os itens para a página atual
     const indexOfLastItem = currentPage * itemsPerPage;
@@ -114,7 +105,7 @@ const ProductSection = () => {
                 </div>
             </section>
 
-            <div className="footer d-flex flex-column flex-md-row align-items-center justify-content-between py-4 px-4 px-xl-5 bg-success">
+            <div className="fooster d-flex flex-column flex-md-row align-items-center justify-content-between py-4 px-4 px-xl-5 bg-success">
                 <div className="logo">
                     <img src='./image/BannerLogos/imgLogo1.svg' alt='Logo Localiza' />
                 </div>
@@ -124,6 +115,6 @@ const ProductSection = () => {
             </div>
         </div>
     );
-};
+}
 
 export default ProductSection;
