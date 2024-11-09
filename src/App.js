@@ -7,8 +7,8 @@ import Login from './pages/login/login';
 import Signup from './pages/login/signup';
 import ResetPassword from './pages/login/resetPassword';
 import Welcome from './pages/welcome';
-import GenerateCode from './pages/admin/GenerateCode';
-import CodeList from './pages/admin/CodeList';
+import GenerateCode from './pages/admin/generateCode';
+import CodeList from './pages/admin/codeList';
 
 function App() {
     return (
