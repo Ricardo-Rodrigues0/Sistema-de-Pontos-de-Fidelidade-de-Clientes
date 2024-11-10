@@ -61,8 +61,8 @@ const ProductSection = () => {
                         <button className={`btn ${selectedCategory === 'hatch' ? 'btn-primary' : 'btn-outline-primary'}`} onClick={() => handleCategoryChange('hatch')}>Hatch</button>
                         <button className={`btn ${selectedCategory === 'pick-up' ? 'btn-primary' : 'btn-outline-primary'}`} onClick={() => handleCategoryChange('pick-up')}>Pickup</button>
                         <button className={`btn ${selectedCategory === 'premium' ? 'btn-primary' : 'btn-outline-primary'}`} onClick={() => handleCategoryChange('premium')}>Premium</button>
-                        <button className={`btn ${selectedCategory === 'sedan' ? 'btn-primary' : 'btn-outline-primary'}`} onClick={() => handleCategoryChange('sedan')}>Sedan</button>
                         <button className={`btn ${selectedCategory === 'suv' ? 'btn-primary' : 'btn-outline-primary'}`} onClick={() => handleCategoryChange('suv')}>SUV</button>
+                        <button className={`btn ${selectedCategory === 'sedan' ? 'btn-primary' : 'btn-outline-primary'}`} onClick={() => handleCategoryChange('sedan')}>Sedan</button>
                     </div>
                 </div>
 
@@ -82,6 +82,7 @@ const ProductSection = () => {
                                         <p className="card-text mt-3">{product.description}</p>
                                         <p><strong>Valor:</strong> {product.price} pontos</p>
                                         <p><strong>Ano:</strong> {product.year}</p>
+                                        <p><strong>Características:</strong> {product.features}</p>
                                         <div className="d-flex justify-content-center mt-2">
                                             {product.colors.map((color, idx) => (
                                                 <button key={idx} className="btn btn-circle" style={{ backgroundColor: color, border: '2px solid #cfcfcf', margin: '0 5px', width: '30px', height: '30px', borderRadius: '50%' }}></button>
