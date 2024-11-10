@@ -179,7 +179,6 @@ function Home() {
                         </div>
 
 
-
                         <div className="col-sm-3 mb-3 mx-2">
                             <div className="card h-100" style={{ backgroundColor: '#f8f9fa' }}>
                                 <div className="card-header text-center">
@@ -203,7 +202,6 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-
 
                         <div className="col-sm-3 mb-3 mx-2">
                             <div className="card h-100" style={{ backgroundColor: '#f8f9fa' }}>
@@ -230,11 +228,6 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-
-
-
-
-
 
 
                         <div className="col-sm-3 mb-3 mx-2">
@@ -369,9 +362,6 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-
-
-
                     </div>
                 </div>
 
