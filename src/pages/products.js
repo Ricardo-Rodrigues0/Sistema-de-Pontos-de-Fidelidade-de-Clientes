@@ -59,8 +59,10 @@ const ProductSection = () => {
                     <div className="btn-group" role="group">
                         <button className={`btn ${selectedCategory === 'all' ? 'btn-primary' : 'btn-outline-primary'}`} onClick={() => handleCategoryChange('all')}>Todos</button>
                         <button className={`btn ${selectedCategory === 'hatch' ? 'btn-primary' : 'btn-outline-primary'}`} onClick={() => handleCategoryChange('hatch')}>Hatch</button>
-                        <button className={`btn ${selectedCategory === 'pickup' ? 'btn-primary' : 'btn-outline-primary'}`} onClick={() => handleCategoryChange('pickup')}>Pickup</button>
+                        <button className={`btn ${selectedCategory === 'pick-up' ? 'btn-primary' : 'btn-outline-primary'}`} onClick={() => handleCategoryChange('pick-up')}>Pickup</button>
                         <button className={`btn ${selectedCategory === 'premium' ? 'btn-primary' : 'btn-outline-primary'}`} onClick={() => handleCategoryChange('premium')}>Premium</button>
+                        <button className={`btn ${selectedCategory === 'sedan' ? 'btn-primary' : 'btn-outline-primary'}`} onClick={() => handleCategoryChange('sedan')}>Sedan</button>
+                        <button className={`btn ${selectedCategory === 'suv' ? 'btn-primary' : 'btn-outline-primary'}`} onClick={() => handleCategoryChange('suv')}>SUV</button>
                     </div>
                 </div>
 
@@ -77,7 +79,7 @@ const ProductSection = () => {
                                     </div>
                                     <div className="card-body d-flex flex-column text-center">
                                         <img src={product.img} className="img-fluid" style={{ height: '150px', objectFit: 'contain' }} alt={product.name} />
-                                        <p className="card-text mt-3">{product.features}</p>
+                                        <p className="card-text mt-3">{product.description}</p>
                                         <p><strong>Valor:</strong> {product.price} pontos</p>
                                         <p><strong>Ano:</strong> {product.year}</p>
                                         <div className="d-flex justify-content-center mt-2">

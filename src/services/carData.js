@@ -39,7 +39,8 @@ const cars = [
             { icon: '🛠', feature: 'Manutenção preventiva' },
             { icon: '🧰', feature: 'Porta-malas espaçoso' },
         ],
-    }, {
+    },
+    {
         name: 'Fiat Argo',
         img: '/image/groupCar/hatch/ARGO.png',
         price: 220,
@@ -58,7 +59,6 @@ const cars = [
             { icon: '🚦', feature: 'ABS' },
         ],
     },
-
     {
         name: 'Volkswagen Gol',
         img: '/image/groupCar/hatch/GOLC.png',
@@ -195,6 +195,44 @@ const cars = [
             { icon: '🧳', feature: '5 malas grandes' }
         ]
     },
+    {
+        name: 'Chevrolet Montana',
+        img: '/image/groupCar/pick-up/MONP.png',
+        price: 290,
+        year: 2023,
+        description: 'A Chevrolet Montana é perfeita para quem procura uma picape compacta e versátil, ideal para aluguel em ambientes urbanos e rurais, garantindo agilidade e praticidade.',
+        description2: 'Com sua facilidade de manobra e alto desempenho em diversos tipos de terreno, a Chevrolet Montana é a opção ideal para quem busca eficiência e conforto no dia a dia.',
+        colors: ['red', 'black', 'silver'],
+        category: 'pick-up',
+        features: '4 portas, Ar-condicionado, Vidro elétrico, Trava elétrica, Air bag duplo, Sistema de tração 4x4',
+        features2: [
+            { icon: '🚪', feature: '4 portas' },
+            { icon: '❄', feature: 'Ar-condicionado' },
+            { icon: '🔌', feature: 'Vidro elétrico' },
+            { icon: '🔒', feature: 'Trava elétrica' },
+            { icon: '🛡', feature: 'Air bag duplo' },
+            { icon: '🧳', feature: 'Sistema de tração 4x4' }
+        ]
+    },
+    {
+        name: 'Toyota Hilux',
+        img: '/image/groupCar/pick-up/TOYH.png',
+        price: 450,
+        year: 2023,
+        description: 'A Toyota Hilux é sinônimo de durabilidade e confiabilidade, perfeita para quem busca uma picape de alto desempenho em qualquer condição, ideal para viagens longas e aventuras.',
+        description2: 'Com um desempenho excepcional e um design robusto, a Toyota Hilux é ideal para quem enfrenta terrenos desafiadores sem abrir mão do conforto e segurança.',
+        colors: ['white', 'silver', 'blue'],
+        category: 'pick-up',
+        features: '4 portas, Ar-condicionado, Vidro elétrico, Direção hidráulica, Air bag duplo, Transmissão automática',
+        features2: [
+            { icon: '🚪', feature: '4 portas' },
+            { icon: '❄', feature: 'Ar-condicionado' },
+            { icon: '🔌', feature: 'Vidro elétrico' },
+            { icon: '🚗', feature: 'Direção hidráulica' },
+            { icon: '🛡', feature: 'Air bag duplo' },
+            { icon: '⚙', feature: 'Transmissão automática' }
+        ]
+    },
     //========================================================================================//
     //                                 CATEGORIA: PREMIUM                                     //
     //========================================================================================//
@@ -235,6 +273,81 @@ const cars = [
             { icon: '🛡', feature: 'Air Bag Frontal' },
             { icon: '🚦', feature: 'ABS' },
         ],
+    },
+    {
+        name: 'Jeep Commander',
+        img: '/image/groupCar/premium/CMDR.png',
+        price: 500,
+        year: 2023,
+        description: 'O Jeep Commander é perfeito para aventuras familiares, unindo espaço, conforto e uma capacidade off-road que o torna ideal para explorar novos destinos.',
+        description2: 'Com tração 4x4 e desempenho robusto, o Jeep Commander proporciona uma experiência única tanto na cidade quanto fora de estrada.',
+        colors: ['gray', 'white', 'black'],
+        category: 'premium',
+        features: '4 portas, Ar-condicionado, Vidro elétrico, Direção hidráulica, Air bag duplo, Tração 4x4',
+        features2: [
+            { icon: '🚪', feature: '4 portas' },
+            { icon: '❄', feature: 'Ar-condicionado' },
+            { icon: '🔌', feature: 'Vidro elétrico' },
+            { icon: '🚗', feature: 'Direção hidráulica' },
+            { icon: '🛡', feature: 'Air bag duplo' },
+            { icon: '🌎', feature: 'Tração 4x4' }
+        ]
+    },
+    {
+        name: 'Chevrolet Equinox',
+        img: '/image/groupCar/premium/EQBL.png',
+        price: 450,
+        year: 2023,
+        description: 'O Chevrolet Equinox é ideal para famílias que buscam espaço e conforto, perfeito para viagens longas ou para o uso diário com muito estilo e funcionalidade.',
+        description2: 'Com design moderno e funcionalidades inovadoras, o Chevrolet Equinox oferece segurança e desempenho, tornando-se o carro perfeito para qualquer ocasião.',
+        colors: ['black', 'red', 'white'],
+        category: 'premium',
+        features: '4 portas, Ar-condicionado, Vidro elétrico, Direção hidráulica, Air bag duplo, 5 malas pequenas',
+        features2: [
+            { icon: '🚪', feature: '4 portas' },
+            { icon: '❄', feature: 'Ar-condicionado' },
+            { icon: '🔌', feature: 'Vidro elétrico' },
+            { icon: '🚗', feature: 'Direção hidráulica' },
+            { icon: '🛡', feature: 'Air bag duplo' },
+            { icon: '🧳', feature: '5 malas pequenas' }
+        ]
+    }, {
+        name: 'Haval H6',
+        img: '/image/groupCar/premium/HAVA.png',
+        price: 550,
+        year: 2023,
+        description: 'O Haval H6 traz inovação e tecnologia de ponta, oferecendo segurança e conforto para quem procura um SUV moderno para suas aventuras urbanas e rurais.',
+        description2: 'Com recursos de segurança avançados e um design robusto, o Haval H6 é ideal para quem busca um SUV que se adapta a diferentes tipos de terreno e situações.',
+        colors: ['blue', 'black', 'silver'],
+        category: 'premium',
+        features: '4 portas, Ar-condicionado, Vidro elétrico, Trava elétrica, Air bag duplo, ABS',
+        features2: [
+            { icon: '🚪', feature: '4 portas' },
+            { icon: '❄', feature: 'Ar-condicionado' },
+            { icon: '🔌', feature: 'Vidro elétrico' },
+            { icon: '🔒', feature: 'Trava elétrica' },
+            { icon: '🛡', feature: 'Air bag duplo' },
+            { icon: '🚦', feature: 'ABS' }
+        ]
+    },
+    {
+        name: 'Song Plus',
+        img: '/image/groupCar/premium/SONG.png',
+        price: 400,
+        year: 2023,
+        description: 'O Song Plus é uma opção inteligente e sustentável, ideal para quem valoriza eficiência energética e conforto, perfeito para quem quer alugar um carro ecológico e moderno.',
+        description2: 'Com um motor elétrico potente e baixo impacto ambiental, o Song Plus oferece uma condução suave e eficiente para quem busca um estilo de vida mais verde.',
+        colors: ['green', 'blue', 'white'],
+        category: 'premium',
+        features: '4 portas, Ar-condicionado, Vidro elétrico, Direção hidráulica, Air bag duplo, Motor elétrico',
+        features2: [
+            { icon: '🚪', feature: '4 portas' },
+            { icon: '❄', feature: 'Ar-condicionado' },
+            { icon: '🔌', feature: 'Vidro elétrico' },
+            { icon: '🚗', feature: 'Direção hidráulica' },
+            { icon: '🛡', feature: 'Air bag duplo' },
+            { icon: '🔋', feature: 'Motor elétrico' }
+        ]
     },
     //========================================================================================//
     //                                 CATEGORIA: SEDAN                                       //
@@ -277,6 +390,63 @@ const cars = [
             { icon: '🚦', feature: 'Freios ABS' },
         ],
     },
+    {
+        name: 'Hyundai HB20S',
+        img: '/image/groupCar/sedan/HB2C.png',
+        price: 250,
+        year: 2023,
+        description: 'O Hyundai HB20S é ideal para quem busca praticidade e conforto, perfeito para famílias que desejam um carro espaçoso e confortável para suas viagens.',
+        description2: 'Com um design moderno e acabamento sofisticado, o Hyundai HB20S é a escolha ideal para quem valoriza conforto e estilo no dia a dia.',
+        colors: ['blue', 'black', 'white'],
+        category: 'sedan',
+        features: '4 portas, Ar-condicionado, Vidro elétrico, Direção hidráulica, Air bag duplo, Espaço interno generoso',
+        features2: [
+            { icon: '🚪', feature: '4 portas' },
+            { icon: '❄', feature: 'Ar-condicionado' },
+            { icon: '🔌', feature: 'Vidro elétrico' },
+            { icon: '🚗', feature: 'Direção hidráulica' },
+            { icon: '🛡', feature: 'Air bag duplo' },
+            { icon: '〽', feature: 'Espaço interno generoso' }
+        ]
+    },
+    {
+        name: 'Chevrolet Onix',
+        img: '/image/groupCar/sedan/ONIS.png',
+        price: 280,
+        year: 2023,
+        description: 'O Chevrolet Onix Sedan é sinônimo de modernidade e tecnologia, oferecendo recursos avançados para uma experiência de aluguel conectada e confortável.',
+        description2: 'Com excelente economia de combustível e design inovador, o Chevrolet Onix oferece uma experiência de condução conectada e confortável.',
+        colors: ['red', 'silver', 'black'],
+        category: 'sedan',
+        features: '4 portas, Ar-condicionado, Vidro elétrico, Trava elétrica, Air bag duplo, 3 malas grandes',
+        features2: [
+            { icon: '🚪', feature: '4 portas' },
+            { icon: '❄', feature: 'Ar-condicionado' },
+            { icon: '🔌', feature: 'Vidro elétrico' },
+            { icon: '🔒', feature: 'Trava elétrica' },
+            { icon: '🛡', feature: 'Air bag duplo' },
+            { icon: '🧳', feature: '3 malas grandes' }
+        ]
+    },
+    {
+        name: 'Nissan Sentra',
+        img: '/image/groupCar/sedan/SETA.png',
+        price: 300,
+        year: 2023,
+        description: 'O Nissan Sentra é a escolha perfeita para quem precisa de um carro prático e espaçoso, ideal para viagens longas com família e amigos, garantindo conforto em cada trajeto.',
+        description2: 'Com design sofisticado e excelente desempenho, o Nissan Sentra proporciona uma experiência de condução tranquila e confortável.',
+        colors: ['gray', 'blue', 'black'],
+        category: 'sedan',
+        features: '4 portas, Ar-condicionado, Vidro elétrico, Direção hidráulica, Air bag duplo, Amplo porta-malas',
+        features2: [
+            { icon: '🚪', feature: '4 portas' },
+            { icon: '❄', feature: 'Ar-condicionado' },
+            { icon: '🔌', feature: 'Vidro elétrico' },
+            { icon: '🚗', feature: 'Direção hidráulica' },
+            { icon: '🛡', feature: 'Air bag duplo' },
+            { icon: '🧳', feature: 'Amplo porta-malas' }
+        ]
+    },
     //========================================================================================//
     //                                 CATEGORIA: SUV                                         //
     //========================================================================================//
@@ -299,7 +469,100 @@ const cars = [
             { icon: '🚦', feature: 'Freios ABS' },
         ],
     },
-
+    {
+        name: 'Fiat Fastback',
+        img: '/image/groupCar/suv/FATB.png',
+        price: 400,
+        year: 2023,
+        description: 'O Fiat Fastback é ideal para quem procura um carro com um visual dinâmico e sofisticado, oferecendo performance e estilo para os amantes de condução ágil.',
+        description2: 'Com design moderno e esportivo, o Fiat Fastback é perfeito para quem busca um carro que combine estilo e performance no dia a dia.',
+        colors: ['red', 'white', 'black'],
+        category: 'suv',
+        features: '4 portas, Ar-condicionado, Vidro elétrico, Direção hidráulica, Air bag duplo, Design esportivo',
+        features2: [
+            { icon: '🚪', feature: '4 portas' },
+            { icon: '❄', feature: 'Ar-condicionado' },
+            { icon: '🔌', feature: 'Vidro elétrico' },
+            { icon: '🚗', feature: 'Direção hidráulica' },
+            { icon: '🛡', feature: 'Air bag duplo' },
+            { icon: '🌟', feature: 'Design esportivo' }
+        ]
+    },
+    {
+        name: 'Nissan Kicks',
+        img: '/image/groupCar/suv/KICK.png',
+        price: 450,
+        year: 2023,
+        description: 'O Nissan Kicks combina design moderno e eficiência, tornando-se a escolha ideal para quem busca um SUV compacto e conectado, perfeito para o dia a dia.',
+        description2: 'Com tecnologia de ponta e economia de combustível, o Nissan Kicks é a opção ideal para quem deseja um SUV que alia estilo e praticidade.',
+        colors: ['silver', 'black', 'blue'],
+        category: 'suv',
+        features:  'Trava elétrica, Air bag duplo, ABS',
+        features2: [
+            { icon: '🚪', feature: '4 portas' },
+            { icon: '❄', feature: 'Ar-condicionado' },
+            { icon: '🔌', feature: 'Vidro elétrico' },
+            { icon: '🔒', feature: 'Trava elétrica' },
+            { icon: '🛡', feature: 'Air bag duplo' },
+            { icon: '🚦', feature: 'ABS' }
+        ]
+    },
+    {
+        name: 'Nissan Kicks',
+        img: '/image/groupCar/suv/KICK.png',
+        price: 450,
+        year: 2023,
+        description: 'O Nissan Kicks combina design moderno e eficiência, tornando-se a escolha ideal para quem busca um SUV compacto e conectado, perfeito para o dia a dia.',
+        description2: 'Com tecnologia de ponta e economia de combustível, o Nissan Kicks é a opção ideal para quem deseja um SUV que alia estilo e praticidade.',
+        colors: ['silver', 'black', 'blue'],
+        category: 'suv',
+        features: '4 portas, Ar-condicionado, Vidro elétrico',
+        features2: [
+            { icon: '🚪', feature: '4 portas' },
+            { icon: '❄', feature: 'Ar-condicionado' },
+            { icon: '🔌', feature: 'Vidro elétrico' },
+            { icon: '🔒', feature: 'Trava elétrica' },
+            { icon: '🛡', feature: 'Air bag duplo' },
+            { icon: '🚦', feature: 'ABS' }
+        ]
+    },
+    {
+        name: 'Volkswagen Nivus',
+        img: '/image/groupCar/suv/NIVU.png',
+        price: 500,
+        year: 2022,
+        description: 'O Volkswagen Nivus é ideal para quem busca um SUV versátil e cheio de recursos, oferecendo conforto e tecnologia para uma experiência de direção prática e divertida.',
+        description2: 'Com design moderno e várias funcionalidades, o Nivus oferece uma experiência de direção confortável e cheia de recursos tecnológicos.',
+        colors: ['white', 'gray', 'blue'],
+        category: 'suv',
+        features: '4 portas, Ar-condicionado, Vidro elétrico, Direção hidráulica, Air bag duplo',
+        features2: [
+            { icon: '🚪', feature: '4 portas' },
+            { icon: '❄', feature: 'Ar-condicionado' },
+            { icon: '🔌', feature: 'Vidro elétrico' },
+            { icon: '🚗', feature: 'Direção hidráulica' },
+            { icon: '🛡', feature: 'Air bag duplo' }
+        ]
+    },
+    {
+        name: 'Chevrolet Tracker',
+        img: '/image/groupCar/suv/TRAT.png',
+        price: 480,
+        year: 2023,
+        description: 'O Chevrolet Tracker oferece uma combinação de estilo e segurança, ideal para quem procura um SUV compacto e confiável para suas aventuras urbanas e viagens.',
+        description2: 'Com tecnologias de ponta e conforto, o Chevrolet Tracker é a escolha ideal para quem deseja um SUV que une praticidade e segurança.',
+        colors: ['red', 'black', 'silver'],
+        category: 'suv',
+        features: '4 portas, Ar-condicionado, Vidro elétrico, Direção hidráulica, Air bag duplo, 3 malas grandes',
+        features2: [
+          { icon: '🚪', feature: '4 portas' },
+          { icon: '❄', feature: 'Ar-condicionado' },
+          { icon: '🔌', feature: 'Vidro elétrico' },
+          { icon: '🚗', feature: 'Direção hidráulica' },
+          { icon: '🛡', feature: 'Air bag duplo' },
+          { icon: '🧳', feature: '3 malas grandes' }
+        ]
+      },
 ];
 
 export default cars;
