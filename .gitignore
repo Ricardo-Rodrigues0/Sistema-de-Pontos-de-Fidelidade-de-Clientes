@@ -34,7 +34,6 @@ Thumbs.db
 
 # Ignorar o arquivo firebase
 src/firebase/firebase.js
-src/services/users.json
 
 # Ignorar arquivos de cache
 .cache/
