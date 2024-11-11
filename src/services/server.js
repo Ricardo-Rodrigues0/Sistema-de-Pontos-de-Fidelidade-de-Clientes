@@ -4,16 +4,36 @@ const cors = require('cors');
 const app = express();
 const PORT = 5000;
 
-const FILE_PATH = './codes.json';
+const USERS_FILE_PATH = './users.json'; // Arquivo para armazenar os usuários
+const CODES_FILE_PATH = './codes.json'; // Arquivo para armazenar os códigos
 
 // Middleware para parsing JSON e configuração do CORS
 app.use(express.json());
 app.use(cors({ origin: 'http://localhost:3000' })); // Permitindo acesso apenas para 'localhost:3000'
 
+const loadUsers = () => {
+  try {
+    const usersData = fs.readFileSync(USERS_FILE_PATH, 'utf8');
+    if (usersData.trim() === '') {
+      throw new Error("O arquivo de dados de usuários está vazio");
+    }
+    const users = JSON.parse(usersData);
+    return users;
+  } catch (error) {
+    console.error("Erro ao carregar os dados dos usuários:", error);
+    return [];  // Retorna um array vazio ou pode retornar um erro mais adequado
+  }
+};
+
+// Função para salvar os usuários
+const saveUsers = (users) => {
+  fs.writeFileSync(USERS_FILE_PATH, JSON.stringify(users, null, 2));
+};
+
 // Função para carregar os códigos
 const loadCodes = () => {
-  if (fs.existsSync(FILE_PATH)) {
-    const data = fs.readFileSync(FILE_PATH, 'utf-8');
+  if (fs.existsSync(CODES_FILE_PATH)) {
+    const data = fs.readFileSync(CODES_FILE_PATH, 'utf-8');
     return JSON.parse(data);
   }
   return [];
@@ -21,8 +41,47 @@ const loadCodes = () => {
 
 // Função para salvar os códigos
 const saveCodes = (codes) => {
-  fs.writeFileSync(FILE_PATH, JSON.stringify(codes, null, 2));
+  fs.writeFileSync(CODES_FILE_PATH, JSON.stringify(codes, null, 2));
 };
+
+// Rota para criar um novo usuário (signup)
+app.post('/signup', (req, res) => {
+  const { email, password, role } = req.body;
+
+  const users = loadUsers();
+
+  // Verificar se o usuário já existe
+  if (users.find(user => user.email === email)) {
+    return res.status(400).json({ message: 'Usuário já existe' });
+  }
+
+  const newUser = { email, password, role: role || 'user' }; // O role padrão é 'user'
+  users.push(newUser);
+  saveUsers(users);
+
+  res.json({ success: 'Usuário cadastrado com sucesso!' });
+});
+
+// Rota para login de usuário
+app.post('/login', (req, res) => {
+  const { email, password } = req.body;
+
+  const users = loadUsers();
+
+  // Verifica se o usuário existe e a senha é válida
+  const user = users.find(user => user.email === email && user.password === password);
+
+  if (!user) {
+      return res.status(401).json({ message: 'Email ou senha incorretos' });
+  }
+
+  // Retorna o cargo (admin ou usuário)
+  res.json({
+      success: 'Login realizado com sucesso!',
+      role: user.role || 'usuário' // Se não houver role, define como 'usuário'
+  });
+});
+
 
 // Rota para gerar e salvar um novo código
 app.post('/generate-code', (req, res) => {
@@ -78,15 +137,15 @@ app.delete('/delete-code/:id', (req, res) => {
 // Rota para resgatar o código
 app.post('/redeem-code', (req, res) => {
   const { codeName } = req.body;
-  console.log(`Tentativa de resgatar o código: ${codeName}`); // Log para verificar a entrada
+  console.log(`Tentativa de resgatar o código: ${codeName}`);
 
   let codes = loadCodes();
-  console.log('Códigos disponíveis:', codes); // Log para verificar os códigos carregados
+  console.log('Códigos disponíveis:', codes);
 
   const codeIndex = codes.findIndex(code => code.name === codeName);
 
   if (codeIndex === -1) {
-    console.log('Código não encontrado'); // Log para código inexistente
+    console.log('Código não encontrado');
     return res.status(404).json({ message: 'Código não encontrado' });
   }
 
@@ -94,22 +153,22 @@ app.post('/redeem-code', (req, res) => {
   const currentTime = Date.now();
 
   if (code.expiryTime && code.expiryTime < currentTime) {
-    console.log('O código expirou'); // Log para código expirado
+    console.log('O código expirou');
     return res.status(400).json({ message: 'O código expirou' });
   }
 
   if (code.usesLimit !== 'Unlimited' && code.usesLimit <= 0) {
-    console.log('O código atingiu o limite de usos'); // Log para limite de usos atingido
+    console.log('O código atingiu o limite de usos');
     return res.status(400).json({ message: 'O código atingiu o limite de usos' });
   }
 
   // Diminui o limite de usos e remove se o limite chegar a zero
   if (code.usesLimit !== 'Unlimited') {
     code.usesLimit -= 1;
-    console.log(`Novo limite de usos para o código ${codeName}: ${code.usesLimit}`); // Log do novo limite de usos
+    console.log(`Novo limite de usos para o código ${codeName}: ${code.usesLimit}`);
 
     if (code.usesLimit === 0) {
-      console.log(`Código ${codeName} removido por atingir o limite de usos`); // Log para código removido
+      console.log(`Código ${codeName} removido por atingir o limite de usos`);
       codes.splice(codeIndex, 1);
     }
   }
