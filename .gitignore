@@ -33,7 +33,7 @@ coverage/
 Thumbs.db
 
 # Ignorar o arquivo firebase
-src/firebase/firebase.js
+src/firebase/firaebase.js
 
 # Ignorar arquivos de cache
 .cache/
